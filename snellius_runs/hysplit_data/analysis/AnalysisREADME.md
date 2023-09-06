@@ -1,4 +1,5 @@
 These are all the files that perform analysis and a short description of what they do:
+ALSO, NOTE WHAT NEEDS TO BE CHANGED IN EACH FILE
 
 - `daily_grid.py`
    run with `do_grid.sh`
