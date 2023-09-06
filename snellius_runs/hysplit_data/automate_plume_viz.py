@@ -4,7 +4,6 @@ Automate the plume simulation using hysplit model
 
 import os, re, datetime, json, pytz, subprocess, time, shutil, requests, traceback
 import numpy as np
-# from bs4 import BeautifulSoup
 import pandas as pd
 import matplotlib.pyplot as plt
 import urllib.parse
@@ -13,16 +12,13 @@ from multiprocessing.dummy import Pool
 from os import listdir
 from os.path import isfile, join, isdir
 from zipfile import ZipFile
-# import cv2 as cv
-# from PIL import Image, ImageFont, ImageDraw
 from utils import subprocess_check
 from pardump_util import findInFolder, create_multisource_bin
-from cached_hysplit_run_lib_edit import getMultiHourDispersionRunsParallel, parse_eastern, HysplitModelSettings, InitdModelType, CachedDispersionRun
+from cached_hysplit_run_lib import getMultiHourDispersionRunsParallel, parse_eastern, HysplitModelSettings, InitdModelType, CachedDispersionRun
 
 
 hysplit_root = "/home/nholzbach/hysplit/"
 
-# do I need this? check where used
 def exec_ipynb(filename_or_url):
     """Load other ipython notebooks and import their functions"""
     nb = (requests.get(filename_or_url).json() if re.match(r'https?:', filename_or_url) else json.load(open(filename_or_url)))
@@ -38,7 +34,6 @@ def exec_ipynb(filename_or_url):
     code = compile(src, tmpname, 'exec')
     exec(code, globals())
 
-# this is fine
 def get_start_end_time_list(start_date_eastern, end_date_eastern, duration=24, offset_hours=3):
     """
     Given starting and ending date string, get a list of starting and ending datetime objects
@@ -55,10 +50,8 @@ def get_start_end_time_list(start_date_eastern, end_date_eastern, duration=24, o
     offset_d = pd.Timedelta(offset_hours, unit="h")
     start_d = pd.date_range(start=start_date_eastern, end=end_date_eastern, closed="left", tz="US/Eastern") - offset_d
     end_d = start_d + pd.Timedelta(duration, unit="h")
-    #end_d = pd.date_range(start=start_date_eastern, end=end_date_eastern, closed="right", tz="US/Eastern") - offset_d
     return (start_d, end_d)
 
-# this is fine
 def get_time_range_list(start_date_str_list, duration=24, offset_hours=3):
     """
     Convert lists of starting and ending date strings to objects
@@ -77,7 +70,6 @@ def get_time_range_list(start_date_str_list, duration=24, offset_hours=3):
     end_d = start_d + pd.Timedelta(duration, unit="h")
     return (start_d, end_d)
 
-# this I probably need but needs to be edited significantly, or maybe don't need at all?
 def generate_metadata(start_d, end_d, video_start_delay_hrs=0, url_partition=4, redo=0,
         prefix="banana_", add_smell=True, lat="40.42532", lng="-79.91643", zoom="9.233", credits="CREATE Lab",
         category="Plume Viz", name_prefix="PARDUMP ", file_path="https://cocalc-www.createlab.org/test/"):
@@ -237,7 +229,6 @@ def simulate(start_time_eastern, o_file, sources, emit_time_hrs=0, duration=24, 
         # connect this to source id?? or just add it to the df
         datetime = folder.split("/")[-1]
 
-        # cdump_txt = findInFolder(folder,'cdump*.txt')
         # make a dataframe of txt file
         df = pd.read_fwf(cdump_txt)
         df.columns = df.columns.str.replace(r'^TEST.*', 'TEST', regex=True)
@@ -250,39 +241,15 @@ def simulate(start_time_eastern, o_file, sources, emit_time_hrs=0, duration=24, 
     # Write the description and data to a CSV file
     # this is a bit hardcoded, need to be able to change the emission scheme automatically
     description = f"Model type:ParticleHV,particle dispersion scheme: 1, Day:{start_time_eastern}, Duration:{duration}hrs, emission_time_hrs:{emit_time_hrs}hrs, emission scheme: {sources}  \n \n"
-    # emit1 = specific emission scheme with weighted conc
     run_info = "run_%s_%shr" % (start_time_eastern, duration)
     with open('/home/nholzbach/hysplit_data/results/%s.csv' % run_info, 'w') as f:
         f.write(description)
         cdump_df.to_csv(f, header=True, index=False)
 
 
-    # print("len(cdump_txt_list)=%d" % len(cdump_txt_path_list))
-    # cdump_df.to_csv('/home/nholzbach/hysplit_data/results/%s.csv' % run_info, index=False)
     print("cdumps all collected in home/nholzbach/hysplit_data/results/%s.csv" % run_info )
 
 
-    # traj_file_list = []
-    # for folder in path_list:
-    #     traj = findInFolder(folder,"PARTICLE.DAT")
-    #     traj_file_list.append(traj)
-    # print("len(traj_file_list)=%d" % len(traj_file_list))
-
-    print("filtering has been skipped, check around line 267 of automate file")
-    # filter_out_ratios = [source["filter_out"] for source in sources] if "filter_out" in sources[0] else filter_ratio
-    # print("Creating %s" % o_file)
-    # this is where the files are edited and particle data is restructured to visualise
-    # create_multisource_bin(traj_file_list, o_file, len(sources), filter_out_ratios=filter_out_ratios)
-    # print("Created %s" % o_file)
-    # os.chmod(o_file, 0o777)
-
-    # Cleanup files
-    # print("Cleaning files...")
-    # for folder in path_list:
-    #     pdump_txt = findInFolder(folder,'PARDUMP*.txt')
-    #     print("Remove file %s" % pdump_txt)
-    #     os.remove(pdump_txt)
-    #     # TODO: gzip PARDUMP.* files
 
 
 def is_url_valid(url):
@@ -308,10 +275,6 @@ def simulate_worker(start_time_eastern, o_file, sources, emit_time_hrs, duration
         print("File exists in local %s" % o_file)
         return True
 
-    # # Skip if the file exists in remote
-    # if o_url is not None and is_url_valid(o_url):
-    #     print("File exists in remote %s" % o_url)
-    #     return True
 
     # Perform HYSPLIT model simulation
     try:
