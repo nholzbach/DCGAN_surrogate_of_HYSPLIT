@@ -1,4 +1,4 @@
-#
+
 import numpy as np
 import geopandas as gpd
 import pandas as pd
@@ -9,31 +9,7 @@ sns.set_style("whitegrid")
 sns.set_context("talk", font_scale=1.5)
 import shapely
 from shapely.geometry import Point
-# sns.color_palette("rocket_r", as_cmap=True)
-#
-# load in CR grid
-# crPATH = '../../../citizen_data/grids/average/'
-# test_cr_grid = gpd.read_file(crPATH+'2022-06-01 03:00:00.geojson')
-# # load in hysplit grid
-# test_hysplit_grid = gpd.read_file('../grids/2019-1-12.geojson')
-# date = '2019-01-12'
-# #%% plot testing
-# fig , ax = plt.subplots(1,2, figsize = (10,10), sharex=True, sharey=True)
 
-# ax[0] = test_hysplit_grid.plot(column='TEST', alpha=0.5, ax = ax[0], cmap = 'rocket_r')
-# ax[0].set_title('HYSPLIT emissions results')
-# sm = plt.cm.ScalarMappable(cmap = 'rocket_r')
-# sm.set_array(test_hysplit_grid['TEST'])
-# cbar = plt.colorbar(sm, ax=ax[0], shrink=0.4)
-
-# ax[1]= test_cr_grid.plot(column='smell value', ax=ax[1], alpha=0.5, cmap = 'rocket_r')
-# ax[1].set_title('Citizen reports')
-# sm2 = plt.cm.ScalarMappable(cmap = 'rocket_r')
-# sm2.set_array(test_cr_grid['smell value'])
-# cbar = plt.colorbar(sm2, ax=ax[1], shrink=0.4)
-# # fig.suptitle(date)
-# fig.tight_layout()
-# making this into function and saving
 def plot_grids(hysplit_grid, cr_grid, date, save=False):
  fig , ax = plt.subplots(1,2, figsize = (10,10))
 
@@ -53,47 +29,6 @@ def plot_grids(hysplit_grid, cr_grid, date, save=False):
   fig.tight_layout()
   fig.savefig(f'images/grid_comparison_{date}.pdf')
 
-#%% percentage aggreement testing
-# remove 0 values and geometry column
-# convert 0 to na
-# test_cr_grid['smell value'] = test_cr_grid['smell value'].replace(0, np.nan)
-# df1 = test_cr_grid.dropna()
-
-# df2 = test_hysplit_grid
-# # Merge the two DataFrames based on their geometries
-# merged_df = df1.merge(df2, on='geometry', suffixes=('_df1', '_df2'))
-
-# # Count the number of matching geometries
-# matching_values = len(merged_df)
-
-# # Calculate the percentage agreement
-# total_values = len(df1)
-# percentage_agreement = (matching_values / total_values) * 100
-# # %%
-# merged_df.to_csv('test.csv')
-#%% testing anaylsis on merged (IMPACT ANALYSIS)
-# df = pd.read_csv('test.csv', index_col=0)
-# df.drop(columns=['geometry'], inplace=True)
-# # df = merged_df
-# # df.drop(columns=['geometry'], inplace=True)
-# # mean of each smell value
-# means = df.groupby('smell value').mean()
-# means.rename(columns={'TEST': 'Mean'}, inplace=True)
-# std = df.groupby('smell value').std()
-# std.rename(columns={'TEST': 'STD'}, inplace=True)
-# counts = df.groupby('smell value').count()
-# counts.rename(columns={'TEST': 'Count'}, inplace=True)
-
-# # make a df of the means and counts
-# stats = pd.concat([means, counts, std], axis=1)
-
-# # make box plots, one for each rating with TEST on the y axis
-# # sns.boxplot(x='smell value', y='TEST', data=df)
-# # sns.scatterplot(x='smell value', y='TEST', data=df)
-# plt.plot(df['smell value'], df['TEST'], 'rx', alpha=0.5)
-# plt.plot(stats.index, stats['Mean'])
-# plt.fill_between(stats.index, stats['Mean']-stats['STD'], stats['Mean']+stats['STD'], alpha=0.2)
-
 
 def get_impact_stats(df, date, plot=False,title=None, save=False):
  df.drop(columns=['geometry'], inplace=True)
@@ -112,7 +47,6 @@ def get_impact_stats(df, date, plot=False,title=None, save=False):
  stats = pd.concat([means, counts, std], axis=1)
 
  if plot == True:
- #    sns.boxplot(x='smell value', y='TEST', data=df)
   fig, ax = plt.subplots(figsize=(10,10))
   plt.plot(df['smell value'], df['TEST'], 'rx', alpha=0.5, markersize=20,markeredgewidth=6)
   plt.plot(stats.index, stats['Mean'], linewidth=6)
@@ -127,9 +61,6 @@ def get_impact_stats(df, date, plot=False,title=None, save=False):
     plt.savefig(f'images/impact_analysis_{date}_{title}.pdf')
 
  return stats, corr['TEST']['smell value']
-
-# df = pd.read_csv('test.csv', index_col=0)
-# get_impact_stats(df, date, plot=True, save=False)
 
 
 def percentage_agreement(hysplit, cr):
@@ -152,13 +83,8 @@ def percentage_agreement(hysplit, cr):
     # Calculate the percentage agreement
     total_values = len(df1)
     pa = (nonzero_vals / total_values) * 100
-    # making a dictionary of all these things
-    # dict['date'] = date
-    # dict['percentage_agreement'] = percentage_agreement
-    # comparison['merged_df'] = merged_df
     return pa, merged_df
 
-# test = percentage_agreement(date, test_hysplit_grid, test_cr_grid)
 
 def boundary_setup(n_cells):
     # X = lon, Y = lat
@@ -186,12 +112,10 @@ def boundary_setup(n_cells):
 def preprocess(df, bbox_gdf, crs, cols=['LON', 'LAT']):
  # Convert the coordinates to a Point geometry
  geometry = [Point(xy) for xy in zip(df[cols[0]], df[cols[1]])]
- #  df = df.drop(['LON', 'LAT'], axis=1)
  # Create a GeoDataFrame using the original DataFrame and the geometry column
  gdf = gpd.GeoDataFrame(df, geometry=geometry)
  gdf = gdf.drop([cols[0], cols[1]], axis=1)
  gdf.crs = crs
-
  # choose only points within the boundary of the city
  points_in_bbox = gpd.sjoin(gdf, bbox_gdf, how="inner",predicate='within')
  joined_df = points_in_bbox.drop(columns=['index_right'])
@@ -208,8 +132,6 @@ def merge_sum(result_gdf, cell,date,group=None, plot = False):
     cell['smell value'] = cell['smell value'].fillna(0)
     if plot:
         ax = cell.plot(column='smell value', figsize=(12, 8), cmap='BuGn', edgecolor="white")
-        # ax.set_axis_off()
-        # ax.colorbar()
         sm = plt.cm.ScalarMappable(cmap='BuGn')
         sm.set_array(cell['smell value'])
 
@@ -229,10 +151,7 @@ def merge_average(result_gdf, cell,date, group=None, plot = False):
     cell = cell.merge(cell_max_smell, how='left', left_index=True, right_index=True)
     cell['smell value'] = cell['smell value'].fillna(0)
     if plot:
-        # fig, ax = plt.subplots(figsize=(10, 10))
         ax = cell.plot(column='smell value', figsize=(12, 8), cmap='BuGn', edgecolor="white")
-        # ax.set_axis_off()
-        # ax.colorbar()
         sm = plt.cm.ScalarMappable(cmap='BuGn')
         sm.set_array(cell['smell value'])
 
@@ -252,12 +171,8 @@ def merge(result_gdf, cell,date, plot = False, save = False):
     cell['TEST'] = cell['TEST'].fillna(0)
     if plot:
         ax = cell.plot(column='TEST', figsize=(12, 8), cmap='BuGn', edgecolor="white")
-        # ax.set_axis_off()
-        # ax.colorbar()
         sm = plt.cm.ScalarMappable(cmap='BuGn')
         sm.set_array(cell['TEST'])
-        # norm = mcolors.Normalize(vmin=0, vmax=5)
-        # sm.set_norm(norm)
         cbar = plt.colorbar(sm, ax=ax)
         cbar.set_label('Emission')  # Add a label to the colorbar
 
@@ -328,17 +243,6 @@ def main(argv):
                 else:
                     impact_stats_avg, corr_avg = None, None
                     impact_stats_sum, corr_sum = None, None
-
-#          stats[time] = {
-#            'date': time,
-#            'percentage_agreement_avg': pa_avg,
-#            'percentage_agreement_sum': pa_sum,
-#            'impact_stats_avg': impact_stats_avg,
-#            'impact_stats_sum': impact_stats_sum,
-#            'corr_avg': corr_avg,
-#            'corr_sum': corr_sum}
-#    stats_df = pd.DataFrame.from_dict(stats, orient='index')
-#    stats_df.to_csv(f'CR_comparison/{yr}-{month}_results.csv')
 
 if __name__ == '__main__':
     main(sys.argv)
