@@ -44,7 +44,6 @@ def preprocess(df, hr, bbox_gdf, crs):
  df = df[df['HR']==hr]
  # Convert the coordinates to a Point geometry
  geometry = [Point(xy) for xy in zip(df['LON'], df['LAT'])]
- #  df = df.drop(['LON', 'LAT'], axis=1)
  # Create a GeoDataFrame using the original DataFrame and the geometry column
  gdf = gpd.GeoDataFrame(df, geometry=geometry)
  gdf = gdf.drop(['LON', 'LAT', 'YEAR', 'MO', 'DA','HR'], axis=1)
@@ -56,14 +55,11 @@ def preprocess(df, hr, bbox_gdf, crs):
 
  return joined_df
 
-
-
 def merge(result_gdf, cell,scale=True, plot = False):
     merged = gpd.sjoin(result_gdf,cell, how='left', predicate='within')
     merged['total_emission']=1
     dissolve = merged.dissolve(by="index_right", aggfunc="sum")
     cell = cell.merge(dissolve['total_emission'], how='left', left_index=True, right_index=True)
-    # print(cell)
     cell['total_emission'] = cell['total_emission'].fillna(0)
     if scale:
         min = 0.0
@@ -87,7 +83,6 @@ def save(cell):
 
 def find_polygon(cell, source_info):
     # find the grid where the source is located
-    # dictionary of the source locations
     locations = {}
     for source in source_info.keys():
         x = source_info[source][1]
@@ -126,16 +121,13 @@ def make_channels(gridsize, input, df, weather):
     """
     channels = []
     for param in weather:
-        # channels[param] = np.full((gridsize,gridsize), input[param])
         channels.append(np.full((gridsize,gridsize), input[param]))
     print("weather channels made")
     emissions = np.array(df['total_emission']).reshape(gridsize,gridsize).T
     channels.append(emissions)
-    # channels['emissions'] = emissions
+
     source = np.array(df['source']).reshape(gridsize,gridsize).T
     channels.append(source)
-    # channels['source'] = source
-
 
     return channels
 
@@ -165,10 +157,8 @@ def weather_load(df, time, variables, maxs, mins):
   # Convert the space-separated sequence to a numpy array
   numpy_array = np.fromstring(data_str, sep=' ')
 
-  # this is the flattened array for the variable
   # this now needs to be minmax scaled
   scaled_array = (numpy_array - min_val) / (max_val - min_val)
-  #weathers.append(scaled_array)
   weathers.append(scaled_array)
  array = np.array(weathers)
 
@@ -183,7 +173,6 @@ def time_encoding(timestr):
  time = []
  # make this into unix time
  dt_object = datetime.strptime(timestr, '%Y-%m-%d %H:%M:%S%z')
- # Get the Unix/Epoch time (timestamp) in seconds
  epoch_time = dt_object.timestamp()
  #  minmax scale the time (max = 1 April 2023, min = 1 august 2016)
  scaled_epochtime = (epoch_time - 1470002400) / (1680300000 - 1470002400)
@@ -200,7 +189,6 @@ def time_encoding(timestr):
  return np.array(time)
 
 def source_load(source_info, timestr):
- # load each source emission from file
  overall_min = -14
  overall_max = 356
  input = []
@@ -209,7 +197,6 @@ def source_load(source_info, timestr):
   # load the source emission
   source_df = pd.read_csv(f'/projects/0/gusr0543/surrogate/sensor_data/{source}_emission_filled-1.csv', index_col=0)
   source_data = source_df.rename(columns={'emission':source})
-  # source_data['time'] = pd.to_datetime(source_data['time']).dt.strftime('%Y-%m-%d %H:%M:%S').astype('datetime64[ns]')
   value = source_data[source_data.index==timestr]
   print(value)
   input.append(value.values[0][0])
@@ -235,10 +222,8 @@ def main(argv):
     year = date.split('_')[0]
     month = date.split('_')[1]
 
-    # for PATH in folder:
     # load files
     weather_file = f'/projects/0/gusr0543/weather/input_data/weather_input_data_{year}_{month}.csv'
-    # input_file = 'input_data_2020_8.csv'
     print("loading input file:", weather_file)
     # other input data
     weather_df = pd.read_csv(weather_file, index_col=0)
@@ -247,7 +232,6 @@ def main(argv):
     for day in range(1,32):
         # check if file exists
         hysplit_file = f'/projects/0/gusr0543/zips/{year}-{str(month).zfill(2)}/run_{year}-{str(month).zfill(2)}-{str(day).zfill(2)}-00:00_24.0hr.csv'
-        # hysplit_file = 'run_2019-01-16-00:00_24.0hr.csv'
         if os.path.exists(hysplit_file):
             print("loading hysplit results:", hysplit_file)
             result_raw = pd.read_csv(hysplit_file, skiprows=2)
@@ -259,18 +243,8 @@ def main(argv):
 
                 # get correct array from input data
                 timestr = f'{year}-{str(month).zfill(2)}-{str(day).zfill(2)} {str(hour).zfill(2)}:00:00'
-                # print("timestr type:", type(timestr))
-                # print("timestr:", timestr)
-                # input_row = input[input['time']==timestr]
-                # print("input:", input_row)
-
-                # input = []
                 # scaled, flattened weather data
                 weather_array = weather_load(weather_df, timestr, weather, maxs, mins)
-                print(weather_array.shape)
-                print("negatives in weather array? ",weather_array[weather_array<0].any())
-                #input.append(weather_array)
-
 
                 # grid the data up
                 bare_grid = merge(result_gdf, cell)
@@ -279,25 +253,13 @@ def main(argv):
                 # add this flattened array to the weather data
                 timestr = f'{year}-{str(month).zfill(2)}-{str(day).zfill(2)} {str(hour).zfill(2)}:00:00+00:00'
                 source_array = source_load(source_info, timestr)
-                print("source array",source_array.shape, source_array)
-                #input.append(source_array)
-                print("negatives in source array? ",source_array[source_array<0].any())
+
                 # fianlly make a time flattened array and add to the rest
                 time_array = time_encoding(timestr)
-                #input.append(time_array)
                 input = np.array([weather_array, source_array, time_array], dtype=object)
-                #input = np.array(input)
                 print("input pre flattening: ", input.shape, input)
                 flat_input = np.concatenate(input)
                 print("input post flattening: ", flat_input.shape, flat_input)
-                print("Negatives in flat input? ", flat_input[flat_input<0].any())
-
-                # find location of source in the grid
-                # source_gridlocations = find_polygon(bare_grid, source_info)
-                # add the source emission to the grid
-                # grid_full = combine(bare_grid, input_row, source_gridlocations)
-                # print("grid filled out with hysplit data and source emission")
-                # final_data = make_flat_channels(gridsize, input_row, grid_full, weather)
 
                 # emissions only
                 output = make_output_channel(gridsize, bare_grid)
@@ -320,7 +282,6 @@ def main(argv):
                 # scaled, flattened weather data
                 weather_array = weather_load(weather_df, timestr, weather, maxs, mins)
                 # Need a function to make a grid with source emissions (read from files), flatten and preprocess
-                # add this flattened array to the weather data
                 timestr = f'{year}-{str(month).zfill(2)}-{str(day).zfill(2)} {str(hour).zfill(2)}:00:00+00:00'
                 source_array = source_load(source_info, timestr)
                 print(source_array)
