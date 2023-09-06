@@ -10,8 +10,8 @@ from datetime import date
 from datetime import timedelta
 import shutil
 from multiprocessing.dummy import Pool
-from cached_hysplit_run_lib_edit import DispersionSource
-from automate_plume_viz_edit import get_time_range_list, simulate_worker
+from cached_hysplit_run_lib import DispersionSource
+from automate_plume_viz import get_time_range_list, simulate_worker
 
 PATH = "/home/nholzbach/"
 current_path = "/home/nholzbach/hysplit_data/"
