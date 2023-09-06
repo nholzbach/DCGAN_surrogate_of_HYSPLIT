@@ -10,10 +10,7 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 import contextily as ctx
-# https://contextily.readthedocs.io/en/latest/places_guide.html
 
-# preprocessing a little bit
-# colour by source
 def preprocess(df):
  coord_mapping = {
      '40.328015,-79.903551': 1, #Irvin
@@ -23,13 +20,10 @@ def preprocess(df):
      '40.479019,-79.960299': 5  #McConway
  }
  df['source'] = df['source'].map(coord_mapping)
-
  # Convert the coordinates to a Point geometry
  geometry = [Point(xy) for xy in zip(df['LON'], df['LAT'])]
- #  df = df.drop(['LON', 'LAT'], axis=1)
  # Create a GeoDataFrame using the original DataFrame and the geometry column
  gdf = gpd.GeoDataFrame(df, geometry=geometry)
-
  # df['coordinate'] = df['LAT'].astype(str) + ',' + df['LON'].astype(str)
  return gdf
 
@@ -43,22 +37,14 @@ def build_monitoring_station_gdf():
         {'name': 'NorthBraddock', 'lat':40.402324, 'lon':-79.860973, 'data_root':'/projects/0/gusr0543/zips/sensor_data/NorthBraddock_emission_filled-1.csv'},
         {'name':'Lawrenceville', 'lat':40.465420, 'lon':-79.960757, 'data_root': '/projects/0/gusr0543/zips/sensor_data/Lawrenceville_emission_filled-1.csv' }
     ]
-    # Iterate over the sources and extract the attributes
-    # make a df from the stations dict
     monitoring_stations = pd.DataFrame(stations, columns=columns)
-    # Create the GeoDataFrame
-    # Convert lat and lon columns to numeric types
     monitoring_stations['lat'] = monitoring_stations['lat'].astype(float)
     monitoring_stations['lon'] = monitoring_stations['lon'].astype(float)
-
-
+ 
     # Create a Point geometry column from lat and lon columns
     monitoring_stations_gdf = gpd.GeoDataFrame(monitoring_stations, geometry=gpd.points_from_xy(monitoring_stations['lon'], monitoring_stations['lat']))
     # Set the CRS of the GeoDataFrame
     monitoring_stations_gdf.crs = 'EPSG:4326'
-
-    # Print the GeoDataFrame
-    print(monitoring_stations_gdf)
     return monitoring_stations_gdf
 
 def preprocess_monitor(df):
@@ -79,9 +65,6 @@ def within_radius(row, coord, search_radius):
     point = (row['LAT'], row['LON'])
     return distance.distance(coord, point).meters <= search_radius
 
-# Draxler ranking method: (for different methods, so can compare this to ML method)
-# correlation coefficient R, fractional bias (FB), figure of merit in space (FMS), and Kolmogorov–Smirnov parameter (KSP)
-# Rank = R2 + 1 − |F B/2| + F M S/100 + (1 − KSP/100
 
 def correlation_coeff(predictions, targets):
     # this is pearson correlation, what hysplit paper uses
@@ -89,21 +72,15 @@ def correlation_coeff(predictions, targets):
 
 def RANK(cor, fb):
     return cor**2 + 1 - np.abs(fb/2)
-# + fms/100 + (1-ksp/100)
 
 def FB(predictions, targets):
     """ Fractional Bias """
     return 2 * (np.mean(predictions) - np.mean(targets))/(np.mean(predictions) + np.mean(targets))
 
-def KSP(predictions, targets):
-    """ Kolomogorov–Smirnov """
-    # actually not sure if this is appropriate
-    return ks_2samp(predictions, targets)
 
 # Simple rmse function
 def rmse(predictions, targets):
     return np.sqrt(((predictions - targets) ** 2).mean())
-
 
 def get_rmse_correlation(station_df, station_name, yr, month, day, dict_of_results, zoom=1000 ):
     """Generates results analysis for a given station and data.
@@ -135,14 +112,6 @@ def get_rmse_correlation(station_df, station_name, yr, month, day, dict_of_resul
     rmse_result = rmse(predictions, targets)
     results['rmse'] = rmse_result
     print("RMSE: ", rmse_result)
-    # fig,ax = plt.subplots()
-    # ax.plot(predictions*zoom, label=f'predictionsx{zoom}')
-    #ax.plot(targets, label='targets')
-    #ax.legend()
-    #ax.set_xlabel("Hour of the Day")
-    #ax.set_title(station_name)
-
-
 
     # now for the correlation resutls
     r, p  = correlation_coeff(predictions, targets)
@@ -152,10 +121,6 @@ def get_rmse_correlation(station_df, station_name, yr, month, day, dict_of_resul
     results['targets'] = targets
     print(f"correlation coeff {r}, p-value {p}")
 
-    # df = pd.DataFrame(results)
-    # print(f"saving analysis results for {station_name} on {yr}-{month}-{day} to csv")
-    # df.to_csv(f'results/{station_name}_{yr}_{month}_{day}.csv')
-    # return predictions, targets, rmse_result, r, p
     return results
 
 def rmse_skip_neg(station_df, station_name, yr, month, day, dict_of_results):
@@ -172,7 +137,6 @@ def rmse_skip_neg(station_df, station_name, yr, month, day, dict_of_results):
         # get the targets (matching date from the station data)
         station = preprocess_monitor(station_df)
         matching_station = matching_date(station, yr, month, day)
-        #print(matching_station['emission'][0])
         if matching_station['emission'][0]==-1:
             print("No matching data in mon station for this day", yr, month, day)
             return None
@@ -184,7 +148,6 @@ def rmse_skip_neg(station_df, station_name, yr, month, day, dict_of_results):
             df_filtered = combined[combined['emission'] >= 0]
             predictions = np.array(df_filtered['TEST'])
             targets = np.array(df_filtered['emission'])
-            # rmse = np.sqrt(((df_filtered['TEST'] - df_filtered['emission']) ** 2).mean())
             rmse_result = rmse(predictions, targets)
             results['rmse'] = rmse_result
             print("RMSE: ", rmse_result)
@@ -224,13 +187,9 @@ def process_run(run_results, PATH, monitoring_stations_gdf, save_instances=True,
     day = date.split('-')[2]
     # same here
     day = int(day.lstrip("0"))
-    # print(day)
 
-    # read csv
-    #PATH = 'HYSPLIT_results/'
     result_raw = pd.read_csv(PATH+run_results, skiprows=2)
     result_gdf = preprocess(result_raw)
-    # print(result_gdf.head())
     print("loaded and preprocessed file:", run_results)
     zooms = [1000,1000,10, 100000,100000]
     dict_of_results = {}
@@ -239,42 +198,30 @@ def process_run(run_results, PATH, monitoring_stations_gdf, save_instances=True,
         station_name =monitoring_stations_gdf.iloc[i]['name']
         print("finding instances within radius for station: ", station_name)
 
-        # load raw data
-        # if i build this into another function that runs this function mulitple times,
-        # remove this out of this loop so that it's only loaded once
-        # print(monitoring_stations_gdf.iloc[i]['data_root'])
         raw_data = pd.read_csv(monitoring_stations_gdf.iloc[i]['data_root'], index_col=0)
         monitor_coord = (monitoring_stations_gdf.iloc[i]['lat'],monitoring_stations_gdf.iloc[i]['lon'])
-        # filter instances within radius
+     
         filename = f'/projects/0/gusr0543/zips/instances/{station_name}_instances_{yr}_{month}_{day}.csv'
         print(filename)
         if not os.path.exists(filename):
-            # if save_instances==True:
             print("Generating this info")
             instances_within_radius = result_gdf[result_gdf.swifter.apply(within_radius, axis=1, coord=monitor_coord, search_radius=search_radius)]
             dict_of_results[station_name] = instances_within_radius
             # also save this because it takes so long to run
-            # dict_of_results[station_name].to_csv(f'/projects/0/gusr0543/zips/instances/{station_name}_instances_{yr}_{month}_{day}.csv')
             dict_of_results[station_name].to_csv(filename)
         else:
             print("Loading this info from csv")
             instances_within_radius = pd.read_csv(filename)
-            # instances_within_radius = pd.read_csv(f'/projects/0/gusr0543/zips/instances/{station_name}_instances_{yr}_{month}_{day}.csv')
             dict_of_results[station_name] = instances_within_radius
             if instances_within_radius.empty:
                 print("There are no instances found within the radius for this station")
 
         # do actual rmse analysis and plot
         print("Now doing rmse analysis and plot")
-        # station_result = get_rmse_correlation(raw_data, station_name, yr, month, day, dict_of_results, zoom)
         station_result = rmse_skip_neg(raw_data, station_name, yr,month, day, dict_of_results)
         analysis_results[station_name] = station_result
     date_df = pd.DataFrame(analysis_results)
     date_df.to_csv(f'results/{yr}_{month}_{day}_negativetest.csv')
-
-
-    # return predictions, targets, rmse_result, r, p
-
 
 def main(argv):
     month = argv[1]
