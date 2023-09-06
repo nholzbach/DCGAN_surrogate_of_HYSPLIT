@@ -16,7 +16,7 @@ from automate_plume_viz import get_time_range_list, simulate_worker
 PATH = "/home/nholzbach/"
 current_path = "/home/nholzbach/hysplit_data/"
 
-# this gives info that is used in the main script but we don't want to use it?
+
 def generate_earthtime_data(date_list, prefix="banana_",
         add_smell=False, lat="40.42532", lng="-79.91643", zoom="9.233", credits ="CREATE Lab",  category ="Plume Conc", name_prefix= "PARDUMP ", video_start_delay_hrs=0):
     print("Generate EarthTime data...")
@@ -24,15 +24,9 @@ def generate_earthtime_data(date_list, prefix="banana_",
     df_layer, df_share_url, df_img_url, file_name, start_d, end_d = None, None, None, None, None, None
     sd, ed = date_list[0], date_list[1]
 
-
-    # dl, ds, di, fn = generate_metadata(sd, ed, video_start_delay_hrs=video_start_delay_hrs,
-            # url_partition=url_partition, img_size=img_size, redo=redo, prefix=prefix,
-            # add_smell=add_smell, lat=lat, lng=lng, zoom=zoom, credits=credits,
-            # category=category, name_prefix=name_prefix, file_path=bin_url)
-
     df_template = pd.read_csv("data/earth_time_layer_template.csv")
     dl = pd.concat([df_template]*len(sd), ignore_index=True)
-    # vid_start_d = start_d + pd.DateOffset(hours=video_start_delay_hrs)
+
     start_d_utc = sd.tz_convert("UTC")
     end_d_utc = ed.tz_convert("UTC")
     fn = prefix + start_d_utc.strftime("%Y%m%d%H%M") + "_" + end_d_utc.strftime("%Y%m%d%H%M")
@@ -40,7 +34,6 @@ def generate_earthtime_data(date_list, prefix="banana_",
     dl["End date"] = end_d_utc.strftime("%Y%m%d%H%M%S")
     dl["Share link identifier"] = file_name
     dl["Name"] = name_prefix + start_d_utc.strftime("%Y-%m-%d")
-    # df_layer["URL"] = file_path + file_name + ".bin"
     dl["Category"] = category
     dl["Credits"] = credits
 
@@ -49,8 +42,6 @@ def generate_earthtime_data(date_list, prefix="banana_",
         df_layer, file_name, start_d, end_d = dl, fn, sd, ed
     else:
         df_layer = pd.concat([df_layer, dl], ignore_index=True)
-        # df_share_url = pd.concat([df_share_url, ds], ignore_index=True)
-        # df_img_url = pd.concat([df_img_url, di], ignore_index=True)
         file_name = file_name.union(fn)
         start_d = start_d.union(sd)
         end_d = end_d.union(ed)
@@ -59,16 +50,6 @@ def generate_earthtime_data(date_list, prefix="banana_",
     p = "data/earth_time_layer.csv"
     df_layer.to_csv(p, index=False)
     os.chmod(p, 0o777)
-
-    # Save rows of share urls to a file
-    # p = "data/earth_time_share_urls.csv"
-    # df_share_url.to_csv(p, index=False)
-    # os.chmod(p, 0o777)
-
-    # Save rows of thumbnail server urls to a file
-    # p = "data/earth_time_thumbnail_urls.csv"
-    # df_img_url.to_csv(p, index=False)
-    # os.chmod(p, 0o777)
 
     return (start_d, end_d, file_name)
 
@@ -82,12 +63,6 @@ def run_hysplit(sources, bin_root, start_d, end_d, file_name, bin_url=None, num_
 
     # Prepare the list of file names
     bin_file_all = bin_root + file_name.values + ".bin"
-
-    # Prepare the list of URLs for checking if the file exists in the remote server
-    # if bin_url is None:
-    #     bin_url_all = [None]*len(file_name.values)
-    # else:
-    #     bin_url_all = bin_url + file_name.values + ".bin"
 
     # Set default parameters (see the simulate function in automate_plume_viz.py to get more details)
     emit_time_hrs = 1
@@ -139,11 +114,6 @@ def main(argv):
 
     program_start_time = time.time()
 
-    #PATH = argv[2]
-
-    # IMPORTANT: specify the path on the server that stores your particle bin files
-    # bin_root = "[YOUR_PATH]/bin/"
-    # hrr_root = "/home/nholzbach/hysplit_data/earthtime/air-data/hrrr/"
     hrr_root = PATH+"/hysplit_data/earthtime/air-data/hrrr/"
     bin_root = PATH+"/hysplit_data/bin/"
 
@@ -151,13 +121,8 @@ def main(argv):
     # bin_url = "https://[YOUR_URL_ROOT]/bin/"
     bin_url = "https://home/nholzbach/hysplit_data/bin/"
 
-    # IMPORTANT: specify a list to indicate the starting and ending dates to proces
-    # You can use two supporing functions to generate the list, see below for examples
-    # date_list = get_time_range_list(["2019-03-05", "2019-03-06"], duration=24, offset_hours=3)
-    # date_list = get_start_end_time_list("2019-04-01", "2019-05-01", offset_hours=3)
 
     # THIS IS JUST ONE DAY FOR TESTING, edit later
-    # date_list = get_time_range_list(["2017-06-17"], duration=24, offset_hours=0)
     # inputted date_list:
     date = argv[2]
     date_list = get_time_range_list([date], duration=24, offset_hours=0)
@@ -231,9 +196,7 @@ def main(argv):
 
     # Sanity checks
     assert(bin_root is not None), "you need to edit the path for storing hysplit particle files"
-    # assert(video_root is not None), "you need to edit the path for storing video files"
     assert(bin_url is not None), "you need to edit the URL for accessing the particle files"
-    # assert(video_url is not None), "you need to edit the URL for accessing the video files"
     assert(date_list is not None),"you need to specify the dates to process"
     assert(prefix is not None),"you need to specify the prefix of the unique share url"
     assert(len(sources) > 0),"you need to specify the pollution sources"
