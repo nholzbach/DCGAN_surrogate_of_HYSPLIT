@@ -1,0 +1,792 @@
+,date,percentage agreement average,percentage agreement sum,impact stats average,impact stats sum,correlation average,correlation sum
+2020-7-1-morning,2020-7-1-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      2  0.0
+3.0           0.0      1  NaN
+4.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      2  0.0
+3.0           0.0      1  NaN
+4.0           0.0      2  0.0",,
+2020-7-1-afternoon,2020-7-1-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      2  0.0
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      2  0.0
+5.0           0.0      1  NaN",,
+2020-7-2-morning,2020-7-2-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      2  0.0
+4.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+3.0           0.0      2  0.0
+4.0           0.0      2  0.0",,
+2020-7-2-afternoon,2020-7-2-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      2  0.0
+3.0           0.0      4  0.0
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      2  0.0
+3.0           0.0      2  0.0
+5.0           0.0      2  0.0
+6.0           0.0      2  0.0",,
+2020-7-3-morning,2020-7-3-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.000000      0.0      6  0.0
+3.500000      0.0      1  NaN
+4.000000      0.0     16  0.0
+4.333333      0.0      1  NaN
+4.500000      0.0      2  0.0
+5.000000      0.0      8  0.0","             Mean  Count  STD
+smell value                  
+3.0           0.0      6  0.0
+4.0           0.0     15  0.0
+5.0           0.0      7  0.0
+7.0           0.0      1  NaN
+8.0           0.0      1  NaN
+9.0           0.0      1  NaN
+10.0          0.0      1  NaN
+13.0          0.0      1  NaN
+18.0          0.0      1  NaN",,
+2020-7-3-afternoon,2020-7-3-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      4  0.0
+2.0           0.0      1  NaN
+3.0           0.0      4  0.0
+4.0           0.0      4  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      4  0.0
+2.0           0.0      1  NaN
+3.0           0.0      4  0.0
+4.0           0.0      4  0.0
+5.0           0.0      3  0.0",,
+2020-7-4-morning,2020-7-4-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      4  0.0
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      4  0.0
+5.0           0.0      2  0.0",,
+2020-7-4-afternoon,2020-7-4-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      2  0.0
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      2  0.0
+5.0           0.0      1  NaN",,
+2020-7-5-morning,2020-7-5-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      5  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      5  0.0
+5.0           0.0      3  0.0",,
+2020-7-5-afternoon,2020-7-5-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      4  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      4  0.0",,
+2020-7-6-morning,2020-7-6-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.000000      0.0      1  NaN
+2.000000      0.0      1  NaN
+3.000000      0.0      9  0.0
+3.500000      0.0      1  NaN
+4.000000      0.0     15  0.0
+4.500000      0.0      4  0.0
+4.666667      0.0      1  NaN
+5.000000      0.0      9  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      9  0.0
+4.0           0.0      9  0.0
+5.0           0.0      5  0.0
+7.0           0.0      1  NaN
+8.0           0.0      5  0.0
+9.0           0.0      4  0.0
+10.0          0.0      4  0.0
+12.0          0.0      1  NaN
+28.0          0.0      1  NaN",,
+2020-7-6-afternoon,2020-7-6-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      2  0.0
+5.0           0.0      5  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      2  0.0
+5.0           0.0      5  0.0",,
+2020-7-7-morning,2020-7-7-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.000000      0.0      1  NaN
+2.000000      0.0      3  0.0
+2.500000      0.0      1  NaN
+3.000000      0.0     18  0.0
+3.333333      0.0      1  NaN
+3.500000      0.0      2  0.0
+3.666667      0.0      1  NaN
+4.000000      0.0     20  0.0
+4.500000      0.0      2  0.0
+4.800000      0.0      1  NaN
+5.000000      0.0     20  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      3  0.0
+3.0           0.0     17  0.0
+4.0           0.0     19  0.0
+5.0           0.0     18  0.0
+6.0           0.0      1  NaN
+7.0           0.0      2  0.0
+8.0           0.0      1  NaN
+9.0           0.0      2  0.0
+10.0          0.0      3  0.0
+11.0          0.0      1  NaN
+15.0          0.0      1  NaN
+24.0          0.0      1  NaN",,
+2020-7-7-afternoon,2020-7-7-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      4  0.0
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      2  0.0
+5.0           0.0      1  NaN
+8.0           0.0      2  0.0",,
+2020-7-8-morning,2020-7-8-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.000000      0.0      1  NaN
+3.000000      0.0     13  0.0
+3.333333      0.0      2  0.0
+3.500000      0.0      1  NaN
+4.000000      0.0     12  0.0
+4.666667      0.0      1  NaN
+5.000000      0.0      8  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0     12  0.0
+4.0           0.0     10  0.0
+5.0           0.0      8  0.0
+6.0           0.0      1  NaN
+7.0           0.0      1  NaN
+8.0           0.0      1  NaN
+10.0          0.0      2  0.0
+12.0          0.0      1  NaN
+14.0          0.0      1  NaN",,
+2020-7-8-afternoon,2020-7-8-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      5  0.0
+3.0           0.0      7  0.0
+4.0           0.0      9  0.0
+4.5           0.0      1  NaN
+5.0           0.0      7  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      5  0.0
+3.0           0.0      6  0.0
+4.0           0.0      7  0.0
+5.0           0.0      7  0.0
+6.0           0.0      1  NaN
+8.0           0.0      2  0.0
+9.0           0.0      1  NaN",,
+2020-7-9-morning,2020-7-9-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      2  0.0
+3.0           0.0      9  0.0
+3.5           0.0      1  NaN
+4.0           0.0     14  0.0
+5.0           0.0     15  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      2  0.0
+3.0           0.0      9  0.0
+4.0           0.0     12  0.0
+5.0           0.0     13  0.0
+7.0           0.0      1  NaN
+8.0           0.0      2  0.0
+10.0          0.0      1  NaN
+20.0          0.0      1  NaN",,
+2020-7-9-afternoon,2020-7-9-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      3  0.0
+4.0           0.0      6  0.0
+5.0           0.0     10  0.0","             Mean  Count  STD
+smell value                  
+3.0           0.0      3  0.0
+4.0           0.0      6  0.0
+5.0           0.0      9  0.0
+20.0          0.0      1  NaN",,
+2020-7-10-morning,2020-7-10-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0     10  0.0
+4.0           0.0     10  0.0
+5.0           0.0      6  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      8  0.0
+4.0           0.0      9  0.0
+5.0           0.0      6  0.0
+6.0           0.0      2  0.0
+8.0           0.0      1  NaN",,
+2020-7-10-afternoon,2020-7-10-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      6  0.0
+4.0           0.0      3  0.0
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      6  0.0
+4.0           0.0      3  0.0
+5.0           0.0      1  NaN
+10.0          0.0      1  NaN",,
+2020-7-11-morning,2020-7-11-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+5.0           0.0      2  0.0
+6.0           0.0      1  NaN",,
+2020-7-11-afternoon,2020-7-11-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+2.0           0.0      2  0.0
+3.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+2.0           0.0      2  0.0
+3.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2020-7-12-morning,2020-7-12-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.000000      0.0      1  NaN
+3.000000      0.0      6  0.0
+3.500000      0.0      2  0.0
+3.666667      0.0      1  NaN
+4.000000      0.0      5  0.0
+4.333333      0.0      1  NaN
+4.500000      0.0      4  0.0
+5.000000      0.0     16  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      6  0.0
+4.0           0.0      4  0.0
+5.0           0.0     13  0.0
+7.0           0.0      2  0.0
+8.0           0.0      1  NaN
+9.0           0.0      3  0.0
+10.0          0.0      2  0.0
+11.0          0.0      1  NaN
+13.0          0.0      1  NaN
+15.0          0.0      1  NaN
+18.0          0.0      1  NaN",,
+2020-7-12-afternoon,2020-7-12-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+3.0           0.0      4  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+3.0           0.0      4  0.0
+5.0           0.0      3  0.0",,
+2020-7-13-morning,2020-7-13-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.000000      0.0      2  0.0
+2.000000      0.0      2  0.0
+2.500000      0.0      1  NaN
+3.000000      0.0      8  0.0
+3.500000      0.0      1  NaN
+3.750000      0.0      1  NaN
+4.000000      0.0     10  0.0
+4.500000      0.0      2  0.0
+4.714286      0.0      1  NaN
+5.000000      0.0      9  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+2.0           0.0      2  0.0
+3.0           0.0      8  0.0
+4.0           0.0      8  0.0
+5.0           0.0      8  0.0
+7.0           0.0      1  NaN
+8.0           0.0      2  0.0
+9.0           0.0      2  0.0
+10.0          0.0      1  NaN
+15.0          0.0      2  0.0
+33.0          0.0      1  NaN",,
+2020-7-13-afternoon,2020-7-13-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+2.0           0.0      3  0.0
+3.0           0.0      5  0.0
+4.0           0.0      1  NaN
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+2.0           0.0      3  0.0
+3.0           0.0      5  0.0
+5.0           0.0      2  0.0
+8.0           0.0      1  NaN
+15.0          0.0      1  NaN",,
+2020-7-14-morning,2020-7-14-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      4  0.0
+4.0           0.0      2  0.0
+5.0           0.0      6  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      2  0.0
+5.0           0.0      6  0.0
+6.0           0.0      1  NaN",,
+2020-7-14-afternoon,2020-7-14-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      4  0.0
+4.0           0.0      2  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      4  0.0
+4.0           0.0      2  0.0
+5.0           0.0      3  0.0",,
+2020-7-15-morning,2020-7-15-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.000000      0.0      4  0.0
+3.000000      0.0     16  0.0
+3.500000      0.0      1  NaN
+3.666667      0.0      1  NaN
+4.000000      0.0     13  0.0
+4.500000      0.0      2  0.0
+4.666667      0.0      1  NaN
+5.000000      0.0     18  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      4  0.0
+3.0           0.0     15  0.0
+4.0           0.0     13  0.0
+5.0           0.0     17  0.0
+6.0           0.0      1  NaN
+7.0           0.0      1  NaN
+9.0           0.0      2  0.0
+11.0          0.0      1  NaN
+14.0          0.0      1  NaN
+15.0          0.0      1  NaN",,
+2020-7-15-afternoon,2020-7-15-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      3  0.0
+3.0           0.0      6  0.0
+4.0           0.0      4  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      3  0.0
+3.0           0.0      6  0.0
+4.0           0.0      4  0.0
+5.0           0.0      3  0.0",,
+2020-7-16-morning,2020-7-16-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      7  0.0
+3.5           0.0      1  NaN
+4.0           0.0      5  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      7  0.0
+4.0           0.0      5  0.0
+5.0           0.0      3  0.0
+7.0           0.0      1  NaN",,
+2020-7-16-afternoon,2020-7-16-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      3  0.0
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN
+8.0           0.0      2  0.0",,
+2020-7-17-morning,2020-7-17-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      4  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      4  0.0
+5.0           0.0      3  0.0",,
+2020-7-17-afternoon,2020-7-17-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      2  0.0
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      2  0.0
+5.0           0.0      1  NaN",,
+2020-7-18-morning,2020-7-18-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.000000      0.0      1  NaN
+2.500000      0.0      1  NaN
+3.000000      0.0      5  0.0
+3.666667      0.0      2  0.0
+4.000000      0.0     13  0.0
+4.333333      0.0      1  NaN
+4.500000      0.0      9  0.0
+4.666667      0.0      1  NaN
+4.750000      0.0      1  NaN
+5.000000      0.0     18  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      5  0.0
+4.0           0.0      8  0.0
+5.0           0.0     19  0.0
+8.0           0.0      2  0.0
+9.0           0.0      8  0.0
+11.0          0.0      2  0.0
+12.0          0.0      2  0.0
+13.0          0.0      1  NaN
+14.0          0.0      1  NaN
+16.0          0.0      1  NaN
+18.0          0.0      1  NaN
+19.0          0.0      1  NaN",,
+2020-7-18-afternoon,2020-7-18-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      4  0.0
+2.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      1  NaN
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      4  0.0
+2.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      1  NaN
+5.0           0.0      2  0.0",,
+2020-7-19-morning,2020-7-19-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      4  0.0
+4.0           0.0      6  0.0
+5.0           0.0      7  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      4  0.0
+4.0           0.0      3  0.0
+5.0           0.0      7  0.0
+8.0           0.0      3  0.0",,
+2020-7-19-afternoon,2020-7-19-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN
+5.0           0.0      2  0.0",,
+2020-7-20-morning,2020-7-20-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+5.0           0.0      2  0.0",,
+2020-7-20-afternoon,2020-7-20-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+4.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+4.0           0.0      3  0.0",,
+2020-7-21-morning,2020-7-21-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      3  0.0
+3.0           0.0      7  0.0
+4.0           0.0      3  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      3  0.0
+3.0           0.0      7  0.0
+4.0           0.0      3  0.0
+5.0           0.0      2  0.0
+10.0          0.0      1  NaN",,
+2020-7-21-afternoon,2020-7-21-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      2  0.0
+4.0           0.0      3  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+3.0           0.0      2  0.0
+4.0           0.0      3  0.0
+5.0           0.0      3  0.0",,
+2020-7-22-morning,2020-7-22-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      1  NaN",,
+2020-7-22-afternoon,2020-7-22-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      4  0.0
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      3  0.0
+5.0           0.0      1  NaN
+8.0           0.0      1  NaN",,
+2020-7-23-morning,2020-7-23-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+2.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+2.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2020-7-23-afternoon,2020-7-23-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2020-7-24-morning,2020-7-24-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      3  0.0
+4.0           0.0      1  NaN",,
+2020-7-24-afternoon,2020-7-24-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN",,
+2020-7-25-morning,2020-7-25-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      2  0.0
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      2  0.0
+5.0           0.0      1  NaN",,
+2020-7-25-afternoon,2020-7-25-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+1.5           0.0      1  NaN
+3.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+3.0           0.0      3  0.0",,
+2020-7-26-morning,2020-7-26-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      9  0.0
+3.5           0.0      3  0.0
+4.0           0.0      8  0.0
+4.5           0.0      1  NaN
+5.0           0.0      9  0.0","             Mean  Count  STD
+smell value                  
+3.0           0.0      9  0.0
+4.0           0.0      8  0.0
+5.0           0.0      8  0.0
+7.0           0.0      3  0.0
+9.0           0.0      1  NaN
+15.0          0.0      1  NaN",,
+2020-7-26-afternoon,2020-7-26-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      2  0.0
+4.0           0.0      1  NaN",,
+2020-7-27-morning,2020-7-27-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      2  0.0
+3.0           0.0      5  0.0
+3.5           0.0      1  NaN
+4.0           0.0      6  0.0
+5.0           0.0      6  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      2  0.0
+3.0           0.0      5  0.0
+4.0           0.0      5  0.0
+5.0           0.0      4  0.0
+7.0           0.0      1  NaN
+8.0           0.0      1  NaN
+10.0          0.0      2  0.0",,
+2020-7-27-afternoon,2020-7-27-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      3  0.0
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      3  0.0
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2020-7-28-morning,2020-7-28-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+4.0           0.0      1  NaN
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      2  0.0
+4.0           0.0      1  NaN
+5.0           0.0      2  0.0",,
+2020-7-28-afternoon,2020-7-28-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+4.0           0.0      1  NaN",,
+2020-7-29-morning,2020-7-29-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.00          0.0      1  NaN
+3.00          0.0     10  0.0
+3.50          0.0      2  0.0
+4.00          0.0     17  0.0
+4.20          0.0      1  NaN
+4.50          0.0      4  0.0
+4.75          0.0      1  NaN
+5.00          0.0     14  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      9  0.0
+4.0           0.0     12  0.0
+5.0           0.0     11  0.0
+7.0           0.0      2  0.0
+8.0           0.0      3  0.0
+9.0           0.0      4  0.0
+10.0          0.0      2  0.0
+12.0          0.0      2  0.0
+15.0          0.0      2  0.0
+19.0          0.0      1  NaN
+21.0          0.0      1  NaN",,
+2020-7-29-afternoon,2020-7-29-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN",,
+2020-7-30-morning,2020-7-30-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      7  0.0
+3.5           0.0      1  NaN
+4.0           0.0      7  0.0
+4.5           0.0      1  NaN
+5.0           0.0      9  0.0","             Mean  Count  STD
+smell value                  
+3.0           0.0      7  0.0
+4.0           0.0      7  0.0
+5.0           0.0      8  0.0
+7.0           0.0      1  NaN
+9.0           0.0      1  NaN
+10.0          0.0      1  NaN",,
+2020-7-30-afternoon,2020-7-30-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+2.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      3  0.0",,
+2020-7-31-morning,2020-7-31-morning,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      5  0.0
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      5  0.0
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2020-7-31-afternoon,2020-7-31-afternoon,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN",,
