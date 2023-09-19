@@ -1,0 +1,2749 @@
+,date,percentage_agreement_avg,percentage_agreement_sum,impact_stats_avg,impact_stats_sum,corr_avg,corr_sum
+2019-6-1-1,2019-6-1-1,40.0,40.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000000      1       NaN
+5.0          0.010769      4  0.021523","                 Mean  Count       STD
+smell value                           
+4.0          0.000000      1       NaN
+5.0          0.010769      4  0.021523",0.2501706264825216,0.2501706264825216
+2019-6-1-2,2019-6-1-2,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000671      1  NaN
+4.0          0.000296      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000671      1  NaN
+4.0          0.000296      1  NaN",-0.9999999999999999,-0.9999999999999999
+2019-6-1-3,2019-6-1-3,75.0,75.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000379      1       NaN
+4.0          0.000653      1       NaN
+5.0          0.000146      2  0.000206","                 Mean  Count       STD
+smell value                           
+3.0          0.000379      1       NaN
+4.0          0.000653      1       NaN
+5.0          0.000146      2  0.000206",-0.5406006095952656,-0.5406006095952656
+2019-6-1-4,2019-6-1-4,80.0,80.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.001011      1       NaN
+5.0          0.001910      4  0.002897","                 Mean  Count       STD
+smell value                           
+4.0          0.001011      1       NaN
+5.0          0.001910      4  0.002897",0.15828058239401752,0.15828058239401752
+2019-6-1-5,2019-6-1-5,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+4.0           0.0      2  0.0
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+4.0           0.0      2  0.0
+5.0           0.0      1  NaN",,
+2019-6-1-6,2019-6-1-6,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2019-6-1-7,2019-6-1-7,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+5.0          0.000137      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+5.0          0.000137      1  NaN",1.0,1.0
+2019-6-1-8,2019-6-1-8,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000951      1  NaN
+5.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000951      1  NaN
+5.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-1-9,2019-6-1-9,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN",,
+2019-6-1-10,2019-6-1-10,66.66666666666666,66.66666666666666,"                 Mean  Count       STD
+smell value                           
+4.0          0.000000      1       NaN
+5.0          0.010828      2  0.004172","                 Mean  Count       STD
+smell value                           
+4.0          0.000000      1       NaN
+5.0          0.010828      2  0.004172",0.9043458855315271,0.9043458855315271
+2019-6-1-11,2019-6-1-11,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-1-12,2019-6-1-12,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000013      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000013      1  NaN",,
+2019-6-1-13,2019-6-1-13,100.0,100.0,"                Mean  Count  STD
+smell value                     
+5.0          0.00066      1  NaN","                Mean  Count  STD
+smell value                     
+5.0          0.00066      1  NaN",,
+2019-6-1-14,2019-6-1-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.002832      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.002832      1  NaN",,
+2019-6-1-15,2019-6-1-15,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-1-16,2019-6-1-16,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000653      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000653      1  NaN",,
+2019-6-1-17,2019-6-1-17,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000005      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000005      1  NaN",,
+2019-6-1-20,2019-6-1-20,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN",,
+2019-6-1-21,2019-6-1-21,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-1-23,2019-6-1-23,25.0,25.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.008899      1  NaN
+2.0          0.000000      1  NaN
+3.0          0.000000      1  NaN
+4.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.008899      1  NaN
+2.0          0.000000      1  NaN
+3.0          0.000000      1  NaN
+4.0          0.000000      1  NaN",-0.7745966692414834,-0.7745966692414834
+2019-6-2-0,2019-6-2-0,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-2-1,2019-6-2-1,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-2-2,2019-6-2-2,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-2-4,2019-6-2-4,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-2-6,2019-6-2-6,100.0,100.0,"                Mean  Count  STD
+smell value                     
+4.0          0.00644      1  NaN","                Mean  Count  STD
+smell value                     
+4.0          0.00644      1  NaN",,
+2019-6-2-7,2019-6-2-7,100.0,100.0,"                Mean  Count       STD
+smell value                          
+4.0          0.00225      5  0.002345
+5.0          0.00429      2  0.000374","                Mean  Count       STD
+smell value                          
+4.0          0.00225      5  0.002345
+5.0          0.00429      2  0.000374",0.4602486603414347,0.4602486603414347
+2019-6-2-8,2019-6-2-8,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+5.0          0.007981      2  0.001385","                 Mean  Count       STD
+smell value                           
+5.0          0.007981      2  0.001385",,
+2019-6-2-10,2019-6-2-10,66.66666666666666,66.66666666666666,"                 Mean  Count  STD
+smell value                      
+1.0          0.000079      1  NaN
+2.0          0.000000      1  NaN
+4.0          0.000208      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000079      1  NaN
+2.0          0.000000      1  NaN
+4.0          0.000208      1  NaN",0.7508200034358697,0.7508200034358697
+2019-6-2-11,2019-6-2-11,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000327      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000327      1  NaN",,
+2019-6-2-12,2019-6-2-12,60.0,60.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000085      1       NaN
+2.0          0.000000      1       NaN
+3.0          0.000015      2  0.000022
+3.5          0.000025      1       NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.000085      1       NaN
+2.0          0.000000      1       NaN
+3.0          0.000015      2  0.000022
+7.0          0.000025      1       NaN",-0.6249455440594401,-0.3071660555179725
+2019-6-2-13,2019-6-2-13,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000090      1  NaN
+2.0          0.000000      1  NaN
+2.5          0.000000      1  NaN
+3.0          0.001184      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000090      1  NaN
+2.0          0.000000      1  NaN
+3.0          0.001184      1  NaN
+5.0          0.000000      1  NaN",0.6306913677147155,0.0467275809209728
+2019-6-2-14,2019-6-2-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000003      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000003      1  NaN",,
+2019-6-2-15,2019-6-2-15,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000015      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000015      1  NaN",,
+2019-6-2-16,2019-6-2-16,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-2-17,2019-6-2-17,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-2-18,2019-6-2-18,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN",,
+2019-6-2-20,2019-6-2-20,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000196      1  NaN
+2.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000196      1  NaN
+2.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-2-22,2019-6-2-22,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-2-23,2019-6-2-23,66.66666666666666,66.66666666666666,"                 Mean  Count       STD
+smell value                           
+1.0          0.000040      2  0.000057
+3.0          0.000086      1       NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.000040      2  0.000057
+3.0          0.000086      1       NaN",0.5512269190264157,0.5512269190264157
+2019-6-3-1,2019-6-3-1,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-3-4,2019-6-3-4,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.002681      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.002681      1  NaN",,
+2019-6-3-11,2019-6-3-11,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000198      2  0.000057","                 Mean  Count       STD
+smell value                           
+1.0          0.000198      2  0.000057",,
+2019-6-3-12,2019-6-3-12,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+3.0          0.000053      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+3.0          0.000053      1  NaN",1.0,1.0
+2019-6-3-15,2019-6-3-15,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2019-6-3-18,2019-6-3-18,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-3-20,2019-6-3-20,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000104      1  NaN
+3.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000104      1  NaN
+3.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-3-21,2019-6-3-21,100.0,100.0,"                Mean  Count  STD
+smell value                     
+4.0          0.00001      1  NaN","                Mean  Count  STD
+smell value                     
+4.0          0.00001      1  NaN",,
+2019-6-3-22,2019-6-3-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000311      1  NaN
+3.0          0.000106      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000311      1  NaN
+3.0          0.000106      1  NaN",-0.9999999999999999,-0.9999999999999999
+2019-6-3-23,2019-6-3-23,66.66666666666666,66.66666666666666,"                 Mean  Count       STD
+smell value                           
+1.0          0.000038      2  0.000054
+4.0          0.005918      1       NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.000038      2  0.000054
+4.0          0.005918      1       NaN",0.9999377796427467,0.9999377796427467
+2019-6-4-0,2019-6-4-0,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000084      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000084      1  NaN",,
+2019-6-4-2,2019-6-4-2,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.012227      2  0.017291","                 Mean  Count       STD
+smell value                           
+3.0          0.012227      2  0.017291",,
+2019-6-4-7,2019-6-4-7,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-4-9,2019-6-4-9,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.015545      1       NaN
+4.0          0.006281      2  0.008055
+5.0          0.003363      1       NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.015545      1       NaN
+4.0          0.006281      2  0.008055
+5.0          0.003363      1       NaN",-0.7515922086005918,-0.7515922086005918
+2019-6-4-10,2019-6-4-10,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.006647      3  0.010133
+4.0          0.020546      2  0.028656
+5.0          0.027280      6  0.020512","                 Mean  Count       STD
+smell value                           
+3.0          0.006647      3  0.010133
+4.0          0.000283      1       NaN
+5.0          0.020835      5  0.014646
+8.0          0.040809      1       NaN
+10.0         0.059500      1       NaN",0.4568050482014293,0.8314422680854976
+2019-6-4-11,2019-6-4-11,84.84848484848484,84.84848484848484,"                 Mean  Count       STD
+smell value                           
+1.0          0.000088      2  0.000124
+3.0          0.027748      6  0.043836
+3.5          0.013202      4  0.004395
+4.0          0.020147     12  0.016517
+5.0          0.013808      9  0.012387","                 Mean  Count       STD
+smell value                           
+1.0          0.000088      2  0.000124
+3.0          0.027748      6  0.043836
+4.0          0.020147     12  0.016517
+5.0          0.014810      8  0.012847
+7.0          0.013202      4  0.004395
+10.0         0.005792      1       NaN",0.027329625953156477,-0.08440930083575254
+2019-6-4-12,2019-6-4-12,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.019565     10  0.011438
+4.0          0.008807      9  0.005213
+4.5          0.010596      2  0.000533
+5.0          0.005770      4  0.004273","                 Mean  Count       STD
+smell value                           
+3.0          0.018693      9  0.011773
+4.0          0.008617      8  0.005540
+5.0          0.005770      4  0.004273
+6.0          0.027420      1       NaN
+8.0          0.010327      1       NaN
+9.0          0.010596      2  0.000533",-0.5620475607794144,-0.19871427089050384
+2019-6-4-13,2019-6-4-13,80.0,80.0,"                 Mean  Count       STD
+smell value                           
+2.0          0.000838      1       NaN
+3.0          0.001498      1       NaN
+4.0          0.000581      3  0.000527","                 Mean  Count       STD
+smell value                           
+2.0          0.000838      1       NaN
+3.0          0.001498      1       NaN
+4.0          0.000581      3  0.000527",-0.37283605072818055,-0.37283605072818055
+2019-6-4-14,2019-6-4-14,25.0,25.0,"                Mean  Count       STD
+smell value                          
+2.0          0.00000      1       NaN
+3.0          0.00018      3  0.000311","                Mean  Count       STD
+smell value                          
+2.0          0.00000      1       NaN
+3.0          0.00018      3  0.000311",0.33333333333333354,0.33333333333333354
+2019-6-4-15,2019-6-4-15,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+4.0           0.0      1  NaN",,
+2019-6-4-16,2019-6-4-16,66.66666666666666,66.66666666666666,"                 Mean  Count  STD
+smell value                      
+1.0          0.000425      1  NaN
+3.0          0.000006      1  NaN
+4.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000425      1  NaN
+3.0          0.000006      1  NaN
+4.0          0.000000      1  NaN",-0.9488140142113296,-0.9488140142113296
+2019-6-4-19,2019-6-4-19,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-4-20,2019-6-4-20,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-4-21,2019-6-4-21,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000032      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000032      1  NaN",,
+2019-6-4-22,2019-6-4-22,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+2.0          0.000000      1  NaN
+3.0          0.001930      1  NaN
+4.0          0.000003      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+2.0          0.000000      1  NaN
+3.0          0.001930      1  NaN
+4.0          0.000003      1  NaN",0.2595067709201252,0.2595067709201252
+2019-6-5-0,2019-6-5-0,66.66666666666666,66.66666666666666,"                 Mean  Count       STD
+smell value                           
+4.0          0.003828      1       NaN
+5.0          0.005273      2  0.007457","                 Mean  Count       STD
+smell value                           
+4.0          0.003828      1       NaN
+5.0          0.005273      2  0.007457",0.15627247999777447,0.15627247999777447
+2019-6-5-2,2019-6-5-2,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-5-3,2019-6-5-3,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000195      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000195      1  NaN",,
+2019-6-5-4,2019-6-5-4,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000014      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000014      1  NaN",,
+2019-6-5-5,2019-6-5-5,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.008225      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.008225      1  NaN",,
+2019-6-5-6,2019-6-5-6,100.0,100.0,"                Mean  Count  STD
+smell value                     
+4.0          0.00133      1  NaN","                Mean  Count  STD
+smell value                     
+4.0          0.00133      1  NaN",,
+2019-6-5-7,2019-6-5-7,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-5-8,2019-6-5-8,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.002019      1  NaN
+5.0          0.002165      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.002019      1  NaN
+5.0          0.002165      1  NaN",1.0000000000000016,1.0000000000000016
+2019-6-5-9,2019-6-5-9,87.5,87.5,"                 Mean  Count       STD
+smell value                           
+3.0          0.006191      5  0.011073
+4.0          0.000451      2  0.000536
+5.0          0.079161      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.006191      5  0.011073
+4.0          0.000451      2  0.000536
+5.0          0.079161      1       NaN",0.7051296608833401,0.7051296608833401
+2019-6-5-10,2019-6-5-10,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.003001      4  0.001077
+4.0          0.003438      2  0.002401
+4.5          0.000859      1       NaN
+5.0          0.002038      4  0.000973","                 Mean  Count       STD
+smell value                           
+3.0          0.003001      4  0.001077
+4.0          0.003438      2  0.002401
+5.0          0.002038      4  0.000973
+9.0          0.000859      1       NaN",-0.3813821528399101,-0.5147633938324225
+2019-6-5-11,2019-6-5-11,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.016219      2  0.022456
+4.0          0.003187      2  0.001665
+5.0          0.000398      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.016219      2  0.022456
+4.0          0.003187      2  0.001665
+5.0          0.000398      1       NaN",-0.5293892369158918,-0.5293892369158918
+2019-6-5-12,2019-6-5-12,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+2.0          0.000039      1       NaN
+4.0          0.005455      2  0.007683","                 Mean  Count       STD
+smell value                           
+2.0          0.000039      1       NaN
+4.0          0.005455      2  0.007683",0.49886204009771895,0.49886204009771895
+2019-6-5-13,2019-6-5-13,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000142      2  0.000158","                 Mean  Count       STD
+smell value                           
+3.0          0.000142      2  0.000158",,
+2019-6-5-15,2019-6-5-15,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000046      1  NaN
+5.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000046      1  NaN
+5.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-5-16,2019-6-5-16,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000017      1  NaN
+5.0          0.000006      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000017      1  NaN
+5.0          0.000006      1  NaN",-1.0,-1.0
+2019-6-5-18,2019-6-5-18,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000085      1  NaN
+5.0          0.000013      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000085      1  NaN
+5.0          0.000013      1  NaN",-1.0,-1.0
+2019-6-5-20,2019-6-5-20,50.0,50.0,"                Mean  Count  STD
+smell value                     
+4.0          0.00062      1  NaN
+5.0          0.00000      1  NaN","                Mean  Count  STD
+smell value                     
+4.0          0.00062      1  NaN
+5.0          0.00000      1  NaN",-1.0,-1.0
+2019-6-5-21,2019-6-5-21,33.33333333333333,33.33333333333333,"                 Mean  Count       STD
+smell value                           
+1.0          0.000000      1       NaN
+4.0          0.000483      2  0.000683","                 Mean  Count       STD
+smell value                           
+1.0          0.000000      1       NaN
+4.0          0.000483      2  0.000683",0.5000000000000001,0.5000000000000001
+2019-6-5-22,2019-6-5-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000007      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000007      1  NaN",,
+2019-6-5-23,2019-6-5-23,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-6-0,2019-6-6-0,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2019-6-6-1,2019-6-6-1,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000293      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000293      1  NaN",,
+2019-6-6-4,2019-6-6-4,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000998      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000998      1  NaN",,
+2019-6-6-9,2019-6-6-9,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.003031      1  NaN
+4.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.003031      1  NaN
+4.0          0.000000      1  NaN",-0.9999999999999998,-0.9999999999999998
+2019-6-6-10,2019-6-6-10,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000006      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000006      1  NaN",,
+2019-6-6-11,2019-6-6-11,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.001645      1  NaN
+3.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.001645      1  NaN
+3.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-6-12,2019-6-6-12,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.021277      1  NaN
+4.0          0.000324      1  NaN
+5.0          0.000013      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.021277      1  NaN
+4.0          0.000324      1  NaN
+5.0          0.000013      1  NaN",-0.8723435093986396,-0.8723435093986396
+2019-6-6-13,2019-6-6-13,66.66666666666666,66.66666666666666,"                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+2.0          0.004568      1  NaN
+3.0          0.001573      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+2.0          0.004568      1  NaN
+3.0          0.001573      1  NaN",0.33891112146602714,0.33891112146602714
+2019-6-6-14,2019-6-6-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000243      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000243      1  NaN",,
+2019-6-6-15,2019-6-6-15,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000428      1  NaN
+4.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000428      1  NaN
+4.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-6-17,2019-6-6-17,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000000      1  NaN
+5.0          0.000877      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000000      1  NaN
+5.0          0.000877      1  NaN",1.0,1.0
+2019-6-6-18,2019-6-6-18,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000002      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000002      1  NaN",,
+2019-6-6-21,2019-6-6-21,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000003      1  NaN
+4.0          0.000002      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000003      1  NaN
+4.0          0.000002      1  NaN",-1.0000000000000002,-1.0000000000000002
+2019-6-6-23,2019-6-6-23,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.012952      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.012952      1  NaN",,
+2019-6-7-0,2019-6-7-0,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000135      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000135      1  NaN",,
+2019-6-7-1,2019-6-7-1,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-7-2,2019-6-7-2,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000924      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000924      1  NaN",,
+2019-6-7-15,2019-6-7-15,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.001261      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.001261      1  NaN",,
+2019-6-7-16,2019-6-7-16,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000131      1  NaN
+4.0          0.000116      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000131      1  NaN
+4.0          0.000116      1  NaN",-1.0000000000000004,-1.0000000000000004
+2019-6-7-17,2019-6-7-17,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000214      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000214      1  NaN",,
+2019-6-7-18,2019-6-7-18,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000571      2  0.000571
+5.0          0.002045      3  0.001968","                 Mean  Count       STD
+smell value                           
+4.0          0.000571      2  0.000571
+5.0          0.002045      3  0.001968",0.49415466646717304,0.49415466646717304
+2019-6-7-19,2019-6-7-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000019      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000019      1  NaN",,
+2019-6-7-21,2019-6-7-21,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.001741      1  NaN
+4.0          0.000058      1  NaN
+5.0          0.000008      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.001741      1  NaN
+4.0          0.000058      1  NaN
+5.0          0.000008      1  NaN",-0.8783615761803156,-0.8783615761803156
+2019-6-7-22,2019-6-7-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000147      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000147      1  NaN",,
+2019-6-7-23,2019-6-7-23,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000448      2  0.000617
+3.0          0.002916      1       NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.000448      2  0.000617
+3.0          0.002916      1       NaN",0.9561808166071026,0.9561808166071026
+2019-6-8-0,2019-6-8-0,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000051      1  NaN
+3.0          0.001718      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000051      1  NaN
+3.0          0.001718      1  NaN",1.0,1.0
+2019-6-8-1,2019-6-8-1,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.001221      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.001221      1  NaN",,
+2019-6-8-2,2019-6-8-2,100.0,100.0,"                 Mean  Count     STD
+smell value                         
+4.0          0.003320      2  0.0036
+5.0          0.000016      1     NaN","                 Mean  Count     STD
+smell value                         
+4.0          0.003320      2  0.0036
+5.0          0.000016      1     NaN",-0.5996948610310756,-0.5996948610310756
+2019-6-8-4,2019-6-8-4,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000245      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000245      1  NaN",,
+2019-6-8-10,2019-6-8-10,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-8-11,2019-6-8-11,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.003997      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.003997      1  NaN",,
+2019-6-8-12,2019-6-8-12,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+4.0           0.0      1  NaN",,
+2019-6-8-13,2019-6-8-13,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000020      1  NaN
+5.0          0.000062      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000020      1  NaN
+5.0          0.000062      1  NaN",1.0,1.0
+2019-6-8-14,2019-6-8-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.001192      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.001192      1  NaN",,
+2019-6-8-15,2019-6-8-15,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000267      2  0.000376","                 Mean  Count       STD
+smell value                           
+4.0          0.000267      2  0.000376",,
+2019-6-8-16,2019-6-8-16,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000183      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000183      1  NaN",,
+2019-6-8-17,2019-6-8-17,66.66666666666666,66.66666666666666,"                 Mean  Count  STD
+smell value                      
+1.0          0.000166      1  NaN
+4.0          0.000000      1  NaN
+5.0          0.000274      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000166      1  NaN
+4.0          0.000000      1  NaN
+5.0          0.000274      1  NaN",0.11933244907703171,0.11933244907703171
+2019-6-8-18,2019-6-8-18,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000149      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000149      1  NaN",,
+2019-6-8-21,2019-6-8-21,75.0,75.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000163      1       NaN
+4.0          0.000261      1       NaN
+5.0          0.000025      2  0.000035","                 Mean  Count       STD
+smell value                           
+1.0          0.000163      1       NaN
+4.0          0.000261      1       NaN
+5.0          0.000025      2  0.000035",-0.483504464786201,-0.483504464786201
+2019-6-8-22,2019-6-8-22,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000167      2  0.000038
+5.0          0.000290      2  0.000292","                 Mean  Count       STD
+smell value                           
+3.0          0.000167      2  0.000038
+5.0          0.000290      2  0.000292",0.38416565568733346,0.38416565568733346
+2019-6-8-23,2019-6-8-23,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000642      1       NaN
+5.0          0.001948      2  0.002604","                 Mean  Count       STD
+smell value                           
+3.0          0.000642      1       NaN
+5.0          0.001948      2  0.002604",0.378869608794166,0.378869608794166
+2019-6-9-0,2019-6-9-0,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+2.0          0.000007      1       NaN
+3.0          0.000042      1       NaN
+4.0          0.001058      2  0.000374
+5.0          0.000223      1       NaN","                 Mean  Count       STD
+smell value                           
+2.0          0.000007      1       NaN
+3.0          0.000042      1       NaN
+4.0          0.001058      2  0.000374
+5.0          0.000223      1       NaN",0.4337458309722573,0.4337458309722573
+2019-6-9-1,2019-6-9-1,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.001423      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.001423      1  NaN",,
+2019-6-9-2,2019-6-9-2,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.008444      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.008444      1  NaN",,
+2019-6-9-3,2019-6-9-3,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000941      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000941      1  NaN",,
+2019-6-9-4,2019-6-9-4,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.001309      2  0.000817","                 Mean  Count       STD
+smell value                           
+3.0          0.001309      2  0.000817",,
+2019-6-9-6,2019-6-9-6,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000017      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000017      1  NaN",,
+2019-6-9-7,2019-6-9-7,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000314      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000314      1  NaN",,
+2019-6-9-10,2019-6-9-10,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.002758      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.002758      1  NaN",,
+2019-6-9-11,2019-6-9-11,100.0,100.0,"                Mean  Count  STD
+smell value                     
+4.0          0.00088      1  NaN","                Mean  Count  STD
+smell value                     
+4.0          0.00088      1  NaN",,
+2019-6-9-14,2019-6-9-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000181      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000181      1  NaN",,
+2019-6-9-16,2019-6-9-16,100.0,100.0,"                Mean  Count  STD
+smell value                     
+5.0          0.00009      1  NaN","                Mean  Count  STD
+smell value                     
+10.0         0.00009      1  NaN",,
+2019-6-9-17,2019-6-9-17,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000335      1  NaN
+5.0          0.000103      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000335      1  NaN
+5.0          0.000103      1  NaN",-1.0,-1.0
+2019-6-9-19,2019-6-9-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000258      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000258      1  NaN",,
+2019-6-9-20,2019-6-9-20,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000309      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000309      1  NaN",,
+2019-6-9-21,2019-6-9-21,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000002      1       NaN
+5.0          0.000215      2  0.000156","                 Mean  Count       STD
+smell value                           
+1.0          0.000002      1       NaN
+5.0          0.000215      2  0.000156",0.745189036821692,0.745189036821692
+2019-6-9-22,2019-6-9-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000180      1  NaN
+5.0          0.000105      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000180      1  NaN
+5.0          0.000105      1  NaN",-1.0000000000000002,-1.0000000000000002
+2019-6-10-0,2019-6-10-0,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-10-1,2019-6-10-1,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN",,
+2019-6-10-3,2019-6-10-3,50.0,50.0,"                 Mean  Count      STD
+smell value                          
+5.0          0.000042      2  0.00006","                 Mean  Count      STD
+smell value                          
+5.0          0.000042      2  0.00006",,
+2019-6-10-10,2019-6-10-10,100.0,100.0,"                Mean  Count  STD
+smell value                     
+4.0          0.00689      1  NaN","                Mean  Count  STD
+smell value                     
+4.0          0.00689      1  NaN",,
+2019-6-10-12,2019-6-10-12,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.002543      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.002543      1  NaN",,
+2019-6-10-13,2019-6-10-13,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000283      1       NaN
+4.0          0.000701      3  0.000278","                 Mean  Count       STD
+smell value                           
+1.0          0.000283      1       NaN
+4.0          0.000701      3  0.000278",0.6777272089242238,0.6777272089242238
+2019-6-10-14,2019-6-10-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000355      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000355      1  NaN",,
+2019-6-10-15,2019-6-10-15,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+2.0          0.000372      1       NaN
+3.0          0.000085      2  0.000004","                 Mean  Count       STD
+smell value                           
+2.0          0.000372      1       NaN
+3.0          0.000085      2  0.000004",-0.9998211881303225,-0.9998211881303225
+2019-6-10-16,2019-6-10-16,100.0,100.0,"                Mean  Count       STD
+smell value                          
+3.0          0.00033      1       NaN
+4.0          0.00036      2  0.000098","                Mean  Count       STD
+smell value                          
+3.0          0.00033      1       NaN
+4.0          0.00036      2  0.000098",0.2397755732182169,0.2397755732182169
+2019-6-10-17,2019-6-10-17,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000129      2  0.000165","                 Mean  Count       STD
+smell value                           
+4.0          0.000129      2  0.000165",,
+2019-6-10-18,2019-6-10-18,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000084      1  NaN
+5.0          0.008337      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000084      1  NaN
+5.0          0.008337      1  NaN",0.9999999999999998,0.9999999999999998
+2019-6-10-19,2019-6-10-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000089      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000089      1  NaN",,
+2019-6-10-21,2019-6-10-21,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-10-23,2019-6-10-23,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.5          0.001508      1  NaN","                 Mean  Count  STD
+smell value                      
+7.0          0.001508      1  NaN",,
+2019-6-11-0,2019-6-11-0,100.0,100.0,"               Mean  Count  STD
+smell value                    
+3.0          0.0163      1  NaN","               Mean  Count  STD
+smell value                    
+3.0          0.0163      1  NaN",,
+2019-6-11-3,2019-6-11-3,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.071857      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.071857      1  NaN",,
+2019-6-11-10,2019-6-11-10,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000231      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000231      1  NaN",,
+2019-6-11-11,2019-6-11-11,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.029129      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.029129      1  NaN",,
+2019-6-11-12,2019-6-11-12,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000463      1       NaN
+3.0          0.000931      2  0.001316
+5.0          0.000000      1       NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.000463      1       NaN
+3.0          0.000931      2  0.001316
+5.0          0.000000      1       NaN",-0.2143379116219094,-0.2143379116219094
+2019-6-11-13,2019-6-11-13,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000368      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000368      1  NaN",,
+2019-6-11-15,2019-6-11-15,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-11-16,2019-6-11-16,100.0,100.0,"                Mean  Count  STD
+smell value                     
+4.0          0.00305      1  NaN","                Mean  Count  STD
+smell value                     
+4.0          0.00305      1  NaN",,
+2019-6-11-19,2019-6-11-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000294      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000294      1  NaN",,
+2019-6-11-20,2019-6-11-20,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-11-21,2019-6-11-21,0.0,0.0,,,,
+2019-6-11-22,2019-6-11-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000363      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000363      1  NaN",,
+2019-6-11-23,2019-6-11-23,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000801      1  NaN
+3.0          0.000008      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000801      1  NaN
+3.0          0.000008      1  NaN",-1.0,-1.0
+2019-6-12-2,2019-6-12-2,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+8.0           0.0      1  NaN",,
+2019-6-12-3,2019-6-12-3,100.0,100.0,"                Mean  Count  STD
+smell value                     
+4.0          0.00107      1  NaN","                Mean  Count  STD
+smell value                     
+4.0          0.00107      1  NaN",,
+2019-6-12-5,2019-6-12-5,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.039252      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.039252      1  NaN",,
+2019-6-12-6,2019-6-12-6,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-12-9,2019-6-12-9,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-12-10,2019-6-12-10,80.0,80.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.001316      2  0.001861
+4.0          0.000591      2  0.000595
+5.0          0.001625      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.001316      2  0.001861
+4.0          0.000591      2  0.000595
+5.0          0.001625      1       NaN",0.022113765250291625,0.022113765250291625
+2019-6-12-11,2019-6-12-11,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.020817      2  0.028748
+3.0          0.001439      3  0.001314
+4.0          0.001222      3  0.001791
+5.0          0.007269      3  0.005514","                 Mean  Count       STD
+smell value                           
+1.0          0.020817      2  0.028748
+3.0          0.001439      3  0.001314
+4.0          0.001222      3  0.001791
+5.0          0.007269      3  0.005514",-0.3922543472928202,-0.3922543472928202
+2019-6-12-12,2019-6-12-12,71.42857142857143,71.42857142857143,"                 Mean  Count       STD
+smell value                           
+3.0          0.000000      1       NaN
+4.0          0.000447      3  0.000422
+5.0          0.010455      3  0.009133","                 Mean  Count       STD
+smell value                           
+3.0          0.000000      1       NaN
+4.0          0.000447      3  0.000422
+5.0          0.011531      2  0.012645
+10.0         0.008304      1       NaN",0.6422404989953441,0.3835520699194909
+2019-6-12-13,2019-6-12-13,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+2.0          0.000852      2  0.000588
+3.0          0.006179      3  0.001575
+4.0          0.004247      5  0.003224
+5.0          0.006408      2  0.005174","                 Mean  Count       STD
+smell value                           
+2.0          0.000852      2  0.000588
+3.0          0.006179      3  0.001575
+4.0          0.004013      4  0.003673
+5.0          0.006408      2  0.005174
+8.0          0.005185      1       NaN",0.37872636429792056,0.2782311200996375
+2019-6-12-14,2019-6-12-14,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000386      2  0.000221
+4.0          0.000342      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.000386      2  0.000221
+4.0          0.000342      1       NaN",-0.1612686729581271,-0.1612686729581271
+2019-6-12-15,2019-6-12-15,100.0,100.0,"                     Mean  Count      STD
+smell value                              
+2.0          8.506000e-07      1      NaN
+4.0          8.642976e-04      2  0.00097","                     Mean  Count      STD
+smell value                              
+2.0          8.506000e-07      1      NaN
+4.0          8.642976e-04      2  0.00097",0.5877402372553802,0.5877402372553802
+2019-6-12-17,2019-6-12-17,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000269      1       NaN
+2.0          0.000188      1       NaN
+4.0          0.000194      2  0.000053","                 Mean  Count       STD
+smell value                           
+1.0          0.000269      1       NaN
+2.0          0.000188      1       NaN
+4.0          0.000194      2  0.000053",-0.5666506497792593,-0.5666506497792593
+2019-6-12-18,2019-6-12-18,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000009      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000009      1  NaN",,
+2019-6-12-19,2019-6-12-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000001      1  NaN
+5.0          0.000248      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000001      1  NaN
+5.0          0.000248      1  NaN",1.0,1.0
+2019-6-12-20,2019-6-12-20,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000155      2  0.000103","                 Mean  Count       STD
+smell value                           
+3.0          0.000155      2  0.000103",,
+2019-6-12-21,2019-6-12-21,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000004      1  NaN
+4.0          0.000177      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000004      1  NaN
+4.0          0.000177      1  NaN",0.9999999999999998,0.9999999999999998
+2019-6-12-22,2019-6-12-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000316      1  NaN
+3.0          0.000228      1  NaN
+5.0          0.000154      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000316      1  NaN
+3.0          0.000228      1  NaN
+5.0          0.000154      1  NaN",-0.9986967127985901,-0.9986967127985901
+2019-6-12-23,2019-6-12-23,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.001236      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.001236      1  NaN",,
+2019-6-13-0,2019-6-13-0,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-13-2,2019-6-13-2,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+3.0           0.0      2  0.0",,
+2019-6-13-3,2019-6-13-3,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-13-4,2019-6-13-4,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000638      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000638      1  NaN",,
+2019-6-13-10,2019-6-13-10,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.001383      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.001383      1  NaN",,
+2019-6-13-11,2019-6-13-11,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.001098      1       NaN
+4.0          0.000760      2  0.000541","                 Mean  Count       STD
+smell value                           
+3.0          0.001098      1       NaN
+4.0          0.000760      2  0.000541",-0.454166294763008,-0.454166294763008
+2019-6-13-12,2019-6-13-12,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000967      1  NaN
+5.0          0.011340      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000967      1  NaN
+5.0          0.011340      1  NaN",0.9999999999999998,0.9999999999999998
+2019-6-13-13,2019-6-13-13,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000154      1  NaN
+3.0          0.000166      1  NaN
+4.5          0.000202      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000154      1  NaN
+3.0          0.000166      1  NaN
+9.0          0.000202      1  NaN",0.9867952492912805,0.9935664782567741
+2019-6-13-16,2019-6-13-16,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.003194      1  NaN
+3.0          0.000151      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.003194      1  NaN
+3.0          0.000151      1  NaN",-1.0,-1.0
+2019-6-13-19,2019-6-13-19,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000000      1  NaN
+4.0          0.000045      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000000      1  NaN
+4.0          0.000045      1  NaN",1.0,1.0
+2019-6-13-20,2019-6-13-20,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-13-21,2019-6-13-21,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000028      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000028      1  NaN",,
+2019-6-13-22,2019-6-13-22,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000000      1  NaN
+4.0          0.001385      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000000      1  NaN
+4.0          0.001385      1  NaN",1.0,1.0
+2019-6-13-23,2019-6-13-23,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000091      1  NaN
+4.0          0.001117      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000091      1  NaN
+4.0          0.001117      1  NaN",1.0,1.0
+2019-6-14-0,2019-6-14-0,33.33333333333333,33.33333333333333,"                 Mean  Count       STD
+smell value                           
+3.0          0.000000      1       NaN
+4.0          0.000004      2  0.000006","                 Mean  Count       STD
+smell value                           
+3.0          0.000000      1       NaN
+4.0          0.000004      2  0.000006",0.5,0.5
+2019-6-14-1,2019-6-14-1,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-14-12,2019-6-14-12,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+3.0          0.004076      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+3.0          0.004076      1  NaN",1.0,1.0
+2019-6-14-13,2019-6-14-13,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-14-14,2019-6-14-14,66.66666666666666,66.66666666666666,"                 Mean  Count      STD
+smell value                          
+3.0          0.000007      1      NaN
+4.0          0.000007      2  0.00001","                 Mean  Count      STD
+smell value                          
+3.0          0.000007      1      NaN
+4.0          0.000007      2  0.00001",0.0036393999256463124,0.0036393999256463124
+2019-6-14-15,2019-6-14-15,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-14-20,2019-6-14-20,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-14-23,2019-6-14-23,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-15-0,2019-6-15-0,33.33333333333333,33.33333333333333,"                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+3.5          0.000000      1  NaN
+4.0          0.105319      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+4.0          0.105319      1  NaN
+7.0          0.000000      1  NaN",0.8660254037844387,-0.2773500981126146
+2019-6-15-1,2019-6-15-1,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000024      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000024      1  NaN",,
+2019-6-15-2,2019-6-15-2,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.024936      1  NaN
+4.0          0.171170      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.024936      1  NaN
+4.0          0.171170      1  NaN",0.9999999999999999,0.9999999999999999
+2019-6-15-9,2019-6-15-9,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000518      1  NaN
+5.0          0.003579      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000518      1  NaN
+5.0          0.003579      1  NaN",1.0,1.0
+2019-6-15-10,2019-6-15-10,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.001943      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.001943      1  NaN",,
+2019-6-15-11,2019-6-15-11,100.0,100.0,"                 Mean  Count      STD
+smell value                          
+3.0          0.000438      1      NaN
+4.0          0.000972      2  0.00065
+5.0          0.017763      1      NaN","                 Mean  Count      STD
+smell value                          
+3.0          0.000438      1      NaN
+4.0          0.000972      2  0.00065
+5.0          0.017763      1      NaN",0.832464600679898,0.832464600679898
+2019-6-15-12,2019-6-15-12,66.66666666666666,66.66666666666666,"                 Mean  Count      STD
+smell value                          
+5.0          0.003155      3  0.00502","                 Mean  Count      STD
+smell value                          
+5.0          0.003155      3  0.00502",,
+2019-6-15-13,2019-6-15-13,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.002636      1  NaN
+5.0          0.008920      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.002636      1  NaN
+5.0          0.008920      1  NaN",1.0,1.0
+2019-6-15-14,2019-6-15-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000339      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000339      1  NaN",,
+2019-6-15-15,2019-6-15-15,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000105      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000105      1  NaN",,
+2019-6-15-17,2019-6-15-17,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000001      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000001      1  NaN",,
+2019-6-15-18,2019-6-15-18,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-15-19,2019-6-15-19,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000000      1  NaN
+5.0          0.000896      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000000      1  NaN
+5.0          0.000896      1  NaN",1.0,1.0
+2019-6-15-22,2019-6-15-22,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-16-0,2019-6-16-0,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.003897      1  NaN
+3.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.003897      1  NaN
+3.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-16-1,2019-6-16-1,66.66666666666666,66.66666666666666,"                 Mean  Count       STD
+smell value                           
+3.0          0.000007      2  0.000011
+4.0          0.000007      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.000007      2  0.000011
+4.0          0.000007      1       NaN",-0.0008536089579725975,-0.0008536089579725975
+2019-6-16-2,2019-6-16-2,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000053      2  0.000036
+5.0          0.000246      1       NaN","                 Mean  Count       STD
+smell value                           
+4.0          0.000053      2  0.000036
+5.0          0.000246      1       NaN",0.9747454826948082,0.9747454826948082
+2019-6-16-3,2019-6-16-3,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-16-8,2019-6-16-8,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000004      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000004      1  NaN",,
+2019-6-16-10,2019-6-16-10,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000043      1  NaN
+5.0          0.000018      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000043      1  NaN
+5.0          0.000018      1  NaN",-1.0,-1.0
+2019-6-16-14,2019-6-16-14,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-16-16,2019-6-16-16,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000257      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000257      1  NaN",,
+2019-6-16-19,2019-6-16-19,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2019-6-16-21,2019-6-16-21,25.0,25.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+3.0          0.000000      1  NaN
+4.0          0.000324      1  NaN
+5.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+3.0          0.000000      1  NaN
+4.0          0.000324      1  NaN
+5.0          0.000000      1  NaN",0.29277002188455997,0.29277002188455997
+2019-6-17-3,2019-6-17-3,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000852      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000852      1  NaN",,
+2019-6-17-5,2019-6-17-5,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-17-11,2019-6-17-11,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+5.0          0.013199      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+5.0          0.013199      1  NaN",1.0,1.0
+2019-6-17-12,2019-6-17-12,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000227      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000227      1  NaN",,
+2019-6-17-14,2019-6-17-14,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-17-15,2019-6-17-15,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000007      1  NaN
+4.0          0.000000      2  0.0
+5.0          0.000156      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000007      1  NaN
+4.0          0.000000      2  0.0
+5.0          0.000156      1  NaN",0.542477231181459,0.542477231181459
+2019-6-17-16,2019-6-17-16,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2019-6-17-17,2019-6-17-17,33.33333333333333,33.33333333333333,"                Mean  Count  STD
+smell value                     
+3.0          0.00066      1  NaN
+4.0          0.00000      2  0.0","                Mean  Count  STD
+smell value                     
+3.0          0.00066      1  NaN
+4.0          0.00000      2  0.0",-1.0000000000000002,-1.0000000000000002
+2019-6-17-18,2019-6-17-18,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+4.0           0.0      2  0.0",,
+2019-6-17-19,2019-6-17-19,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-17-21,2019-6-17-21,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000029      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000029      1  NaN",,
+2019-6-17-22,2019-6-17-22,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-17-23,2019-6-17-23,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-18-0,2019-6-18-0,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000113      1  NaN
+4.0          0.010749      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000113      1  NaN
+4.0          0.010749      1  NaN",1.0,1.0
+2019-6-18-1,2019-6-18-1,100.0,100.0,"                Mean  Count  STD
+smell value                     
+4.0          0.00032      1  NaN","                Mean  Count  STD
+smell value                     
+4.0          0.00032      1  NaN",,
+2019-6-18-2,2019-6-18-2,66.66666666666666,66.66666666666666,"                 Mean  Count  STD
+smell value                      
+1.0          0.025605      1  NaN
+2.5          0.000000      1  NaN
+5.0          0.001623      1  NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.025605      1       NaN
+5.0          0.000811      2  0.001148",-0.7494451452055655,-0.9983971556804052
+2019-6-18-3,2019-6-18-3,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.008251      1  NaN
+5.0          0.011637      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.008251      1  NaN
+5.0          0.011637      1  NaN",1.0000000000000002,1.0000000000000002
+2019-6-18-8,2019-6-18-8,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.001838      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.001838      1  NaN",,
+2019-6-18-10,2019-6-18-10,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-18-11,2019-6-18-11,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2019-6-18-12,2019-6-18-12,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-18-13,2019-6-18-13,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+3.0           0.0      1  NaN",,
+2019-6-18-14,2019-6-18-14,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-18-16,2019-6-18-16,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+4.0           0.0      1  NaN",,
+2019-6-18-17,2019-6-18-17,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+4.0           0.0      1  NaN
+5.0           0.0      2  0.0",,
+2019-6-18-19,2019-6-18-19,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN
+5.0           0.0      2  0.0",,
+2019-6-18-20,2019-6-18-20,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-18-21,2019-6-18-21,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000155      1  NaN
+5.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000155      1  NaN
+5.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-18-23,2019-6-18-23,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000285      1  NaN
+4.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000285      1  NaN
+4.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-19-0,2019-6-19-0,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000166      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000166      1  NaN",,
+2019-6-19-1,2019-6-19-1,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.002784      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.002784      1  NaN",,
+2019-6-19-2,2019-6-19-2,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000519      1  NaN
+5.0          0.003629      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000519      1  NaN
+5.0          0.003629      1  NaN",1.0,1.0
+2019-6-19-9,2019-6-19-9,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000171      1  NaN
+5.0          0.043756      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000171      1  NaN
+5.0          0.043756      1  NaN",1.0,1.0
+2019-6-19-10,2019-6-19-10,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-19-11,2019-6-19-11,25.0,25.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000000      1  NaN
+3.0          0.000000      2  0.0
+4.0          0.011678      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000000      1  NaN
+3.0          0.000000      2  0.0
+4.0          0.011678      1  NaN",0.816496580927726,0.816496580927726
+2019-6-19-12,2019-6-19-12,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.011101      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.011101      1  NaN",,
+2019-6-19-13,2019-6-19-13,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+5.0          0.000547      2  0.000773","                 Mean  Count       STD
+smell value                           
+5.0          0.000547      2  0.000773",,
+2019-6-19-14,2019-6-19-14,66.66666666666666,66.66666666666666,"                 Mean  Count  STD
+smell value                      
+2.0          0.002771      1  NaN
+3.0          0.000087      1  NaN
+4.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.002771      1  NaN
+3.0          0.000087      1  NaN
+4.0          0.000000      1  NaN",-0.8795139758270898,-0.8795139758270898
+2019-6-19-15,2019-6-19-15,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.001108      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.001108      1  NaN",,
+2019-6-19-16,2019-6-19-16,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000028      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000028      1  NaN",,
+2019-6-19-17,2019-6-19-17,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-19-18,2019-6-19-18,100.0,100.0,"                 Mean  Count      STD
+smell value                          
+4.0          0.000074      3  0.00004","                 Mean  Count      STD
+smell value                          
+4.0          0.000074      3  0.00004",,
+2019-6-19-19,2019-6-19-19,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-19-20,2019-6-19-20,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.023540      1  NaN
+5.0          0.000499      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.023540      1  NaN
+5.0          0.000499      1  NaN",-1.0,-1.0
+2019-6-19-21,2019-6-19-21,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000488      1  NaN
+3.0          0.000087      1  NaN
+5.0          0.000405      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000488      1  NaN
+3.0          0.000087      1  NaN
+5.0          0.000405      1  NaN",-0.19537482726033895,-0.19537482726033895
+2019-6-19-22,2019-6-19-22,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000048      2  0.000004","                 Mean  Count       STD
+smell value                           
+3.0          0.000048      2  0.000004",,
+2019-6-19-23,2019-6-19-23,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000277      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000277      1  NaN",,
+2019-6-20-0,2019-6-20-0,66.66666666666666,66.66666666666666,"                 Mean  Count       STD
+smell value                           
+3.0          0.000034      3  0.000037
+4.0          0.000036      2  0.000050
+5.0          0.000049      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.000034      3  0.000037
+4.0          0.000036      2  0.000050
+5.0          0.000049      1       NaN",0.15321105032688637,0.15321105032688637
+2019-6-20-1,2019-6-20-1,25.0,25.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000002      3  0.000003
+4.0          0.000000      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.000002      3  0.000003
+4.0          0.000000      1       NaN",-0.3333333333333332,-0.3333333333333332
+2019-6-20-2,2019-6-20-2,33.33333333333333,33.33333333333333,"                 Mean  Count  STD
+smell value                      
+3.000000     0.000000      2  0.0
+3.500000     0.000000      1  NaN
+3.666667     0.000044      1  NaN
+4.000000     0.000000      1  NaN
+5.000000     0.028648      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000000      2  0.0
+4.0          0.000000      1  NaN
+5.0          0.028648      1  NaN
+7.0          0.000000      1  NaN
+11.0         0.000044      1  NaN",0.8547770623493224,-0.07816491829061947
+2019-6-20-3,2019-6-20-3,25.0,25.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000002      3  0.000004
+5.0          0.000000      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.000002      3  0.000004
+5.0          0.000000      1       NaN",-0.33333333333333337,-0.33333333333333337
+2019-6-20-4,2019-6-20-4,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-20-8,2019-6-20-8,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000434      2  0.000613","                 Mean  Count       STD
+smell value                           
+4.0          0.000434      2  0.000613",,
+2019-6-20-9,2019-6-20-9,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000931      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000931      1  NaN",,
+2019-6-20-11,2019-6-20-11,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.015225      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.015225      1  NaN",,
+2019-6-20-12,2019-6-20-12,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-20-14,2019-6-20-14,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2019-6-20-15,2019-6-20-15,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000259      1  NaN
+4.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000259      1  NaN
+4.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-20-16,2019-6-20-16,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000008      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000008      1  NaN",,
+2019-6-20-17,2019-6-20-17,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN
+4.0           0.0      1  NaN",,
+2019-6-20-21,2019-6-20-21,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000001      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000001      1  NaN",,
+2019-6-20-23,2019-6-20-23,66.66666666666666,66.66666666666666,"                 Mean  Count       STD
+smell value                           
+1.0          0.000159      2  0.000225
+5.0          0.000224      1       NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.000159      2  0.000225
+5.0          0.000224      1       NaN",0.23035174515224185,0.23035174515224185
+2019-6-21-10,2019-6-21-10,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-21-12,2019-6-21-12,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.008711      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.008711      1  NaN",,
+2019-6-21-14,2019-6-21-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000056      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000056      1  NaN",,
+2019-6-21-15,2019-6-21-15,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+5.0          0.000007      2  0.000009","                 Mean  Count       STD
+smell value                           
+5.0          0.000007      2  0.000009",,
+2019-6-21-19,2019-6-21-19,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-21-22,2019-6-21-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000738      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000738      1  NaN",,
+2019-6-21-23,2019-6-21-23,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000288      2  0.000407","                 Mean  Count       STD
+smell value                           
+1.0          0.000288      2  0.000407",,
+2019-6-22-0,2019-6-22-0,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000989      2  0.001399","                 Mean  Count       STD
+smell value                           
+3.0          0.000989      2  0.001399",,
+2019-6-22-1,2019-6-22-1,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.5           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+9.0           0.0      1  NaN",,
+2019-6-22-12,2019-6-22-12,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.028065      2  0.026856","                 Mean  Count       STD
+smell value                           
+3.0          0.028065      2  0.026856",,
+2019-6-22-14,2019-6-22-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.003223      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.003223      1  NaN",,
+2019-6-22-15,2019-6-22-15,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.010294      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.010294      1  NaN",,
+2019-6-22-16,2019-6-22-16,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000068      1       NaN
+3.0          0.000055      2  0.000071","                 Mean  Count       STD
+smell value                           
+1.0          0.000068      1       NaN
+3.0          0.000055      2  0.000071",-0.14636605707611713,-0.14636605707611713
+2019-6-22-18,2019-6-22-18,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.002475      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.002475      1  NaN",,
+2019-6-22-19,2019-6-22-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.001434      1  NaN
+4.0          0.001331      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.001434      1  NaN
+4.0          0.001331      1  NaN",-0.999999999999999,-0.999999999999999
+2019-6-22-20,2019-6-22-20,100.0,100.0,"                Mean  Count       STD
+smell value                          
+1.0          0.00029      2  0.000267","                Mean  Count       STD
+smell value                          
+1.0          0.00029      2  0.000267",,
+2019-6-22-21,2019-6-22-21,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000099      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000099      1  NaN",,
+2019-6-22-23,2019-6-22-23,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+5.0          0.000025      2  0.000036","                 Mean  Count       STD
+smell value                           
+5.0          0.000025      2  0.000036",,
+2019-6-23-1,2019-6-23-1,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+5.0           0.0      2  0.0",,
+2019-6-23-2,2019-6-23-2,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-23-3,2019-6-23-3,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000000      1  NaN
+5.0          0.042721      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000000      1  NaN
+5.0          0.042721      1  NaN",1.0,1.0
+2019-6-23-9,2019-6-23-9,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.052345      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.052345      1  NaN",,
+2019-6-23-11,2019-6-23-11,66.66666666666666,66.66666666666666,"                 Mean  Count       STD
+smell value                           
+4.0          0.001026      1       NaN
+5.0          0.001370      2  0.001937","                 Mean  Count       STD
+smell value                           
+4.0          0.001026      1       NaN
+5.0          0.001370      2  0.001937",0.1433233921986823,0.1433233921986823
+2019-6-23-12,2019-6-23-12,87.5,87.5,"                 Mean  Count       STD
+smell value                           
+4.0          0.052451      4  0.094883
+4.5          0.027816      1       NaN
+5.0          0.001699      3  0.002391","                 Mean  Count       STD
+smell value                           
+4.0          0.052451      4  0.094883
+5.0          0.001699      3  0.002391
+9.0          0.027816      1       NaN",-0.3750307854036918,-0.12426090340217286
+2019-6-23-13,2019-6-23-13,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.001911      1       NaN
+5.0          0.022465      3  0.030865","                 Mean  Count       STD
+smell value                           
+4.0          0.001911      1       NaN
+5.0          0.022465      3  0.030865",0.3776212173869142,0.3776212173869142
+2019-6-23-14,2019-6-23-14,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.011973      2  0.012695
+5.0          0.012988      3  0.008963","                 Mean  Count       STD
+smell value                           
+3.0          0.011973      2  0.012695
+5.0          0.012988      3  0.008963",0.06186525949898206,0.06186525949898206
+2019-6-23-15,2019-6-23-15,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.005471      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.005471      1  NaN",,
+2019-6-23-17,2019-6-23-17,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+2.0          0.002146      1       NaN
+5.0          0.001755      2  0.000033","                 Mean  Count       STD
+smell value                           
+2.0          0.002146      1       NaN
+5.0          0.001755      2  0.000033",-0.9948022462259158,-0.9948022462259158
+2019-6-23-19,2019-6-23-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000178      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000178      1  NaN",,
+2019-6-23-20,2019-6-23-20,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000036      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000036      1  NaN",,
+2019-6-23-22,2019-6-23-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000009      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000009      1  NaN",,
+2019-6-23-23,2019-6-23-23,60.0,60.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000281      2  0.000398
+3.0          0.000004      3  0.000005","                 Mean  Count       STD
+smell value                           
+1.0          0.000281      2  0.000398
+3.0          0.000004      3  0.000005",-0.6063792270832713,-0.6063792270832713
+2019-6-24-0,2019-6-24-0,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-24-1,2019-6-24-1,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-24-2,2019-6-24-2,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000020      1       NaN
+4.0          0.000049      2  0.000015","                 Mean  Count       STD
+smell value                           
+3.0          0.000020      1       NaN
+4.0          0.000049      2  0.000015",0.8526390730575932,0.8526390730575932
+2019-6-24-3,2019-6-24-3,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.004030      1       NaN
+3.5          0.003462      1       NaN
+4.0          0.014682      1       NaN
+5.0          0.001910      2  0.000058","                 Mean  Count       STD
+smell value                           
+3.0          0.004030      1       NaN
+4.0          0.014682      1       NaN
+5.0          0.001910      2  0.000058
+7.0          0.003462      1       NaN",-0.235692278323799,-0.3324310445144261
+2019-6-24-4,2019-6-24-4,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000278      2  0.000330
+5.0          0.000970      3  0.000923","                 Mean  Count       STD
+smell value                           
+4.0          0.000278      2  0.000330
+5.0          0.000970      3  0.000923",0.4905612111596532,0.4905612111596532
+2019-6-24-5,2019-6-24-5,66.66666666666666,66.66666666666666,"                 Mean  Count       STD
+smell value                           
+3.0          0.000000      1       NaN
+5.0          0.000295      2  0.000143","                 Mean  Count       STD
+smell value                           
+3.0          0.000000      1       NaN
+5.0          0.000295      2  0.000143",0.8603202331049353,0.8603202331049353
+2019-6-24-6,2019-6-24-6,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000228      1       NaN
+5.0          0.009090      2  0.012536","                 Mean  Count       STD
+smell value                           
+4.0          0.000228      1       NaN
+5.0          0.009090      2  0.012536",0.4998898248366321,0.4998898248366321
+2019-6-24-7,2019-6-24-7,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.010834      1  NaN
+5.0          0.014274      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.010834      1  NaN
+5.0          0.014274      1  NaN",1.0,1.0
+2019-6-24-8,2019-6-24-8,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.5          0.006882      1  NaN","                 Mean  Count  STD
+smell value                      
+9.0          0.006882      1  NaN",,
+2019-6-24-9,2019-6-24-9,85.71428571428571,85.71428571428571,"                 Mean  Count       STD
+smell value                           
+3.0          0.039805      2  0.026598
+4.0          0.091579      1       NaN
+5.0          0.018863      4  0.015975","                 Mean  Count       STD
+smell value                           
+3.0          0.039805      2  0.026598
+4.0          0.091579      1       NaN
+5.0          0.018863      4  0.015975",-0.42196714601948954,-0.42196714601948954
+2019-6-24-10,2019-6-24-10,88.88888888888889,88.88888888888889,"                 Mean  Count       STD
+smell value                           
+3.0          0.020183      2  0.028350
+4.0          0.022869      4  0.020590
+4.5          0.042426      1       NaN
+5.0          0.015629      2  0.010835","                 Mean  Count       STD
+smell value                           
+3.0          0.020183      2  0.028350
+4.0          0.022869      4  0.020590
+5.0          0.015629      2  0.010835
+9.0          0.042426      1       NaN",0.006433205155046788,0.33420310673659764
+2019-6-24-11,2019-6-24-11,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.012207      4  0.016303
+4.0          0.010359      6  0.010335
+5.0          0.014941      3  0.009655","                 Mean  Count       STD
+smell value                           
+3.0          0.012207      4  0.016303
+4.0          0.010359      6  0.010335
+5.0          0.014941      3  0.009655",0.07677091719987064,0.07677091719987064
+2019-6-24-12,2019-6-24-12,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.002199      3  0.001761
+4.0          0.004824      4  0.004638
+5.0          0.004311      7  0.002628","                 Mean  Count       STD
+smell value                           
+3.0          0.002199      3  0.001761
+4.0          0.004824      4  0.004638
+5.0          0.004311      7  0.002628",0.2268839162596632,0.2268839162596632
+2019-6-24-13,2019-6-24-13,37.5,37.5,"                 Mean  Count       STD
+smell value                           
+1.0          0.000000      3  0.000000
+3.0          0.000363      2  0.000513
+4.0          0.000000      1       NaN
+5.0          0.000890      2  0.000946","                 Mean  Count       STD
+smell value                           
+1.0          0.000000      2  0.000000
+2.0          0.000000      1       NaN
+3.0          0.000363      2  0.000513
+4.0          0.000000      1       NaN
+5.0          0.000890      2  0.000946",0.568811165228204,0.5630237584059371
+2019-6-24-15,2019-6-24-15,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.001547      1  NaN
+5.0          0.000011      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.001547      1  NaN
+5.0          0.000011      1  NaN",-1.0000000000000002,-1.0000000000000002
+2019-6-24-16,2019-6-24-16,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-24-17,2019-6-24-17,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000199      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000199      1  NaN",,
+2019-6-24-19,2019-6-24-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000001      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000001      1  NaN",,
+2019-6-24-20,2019-6-24-20,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000182      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000182      1  NaN",,
+2019-6-24-22,2019-6-24-22,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000453      3  0.000055
+4.0          0.000207      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.000453      3  0.000055
+4.0          0.000207      1       NaN",-0.9386510249961152,-0.9386510249961152
+2019-6-25-2,2019-6-25-2,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      2  0.0
+4.0           0.0      3  0.0
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      2  0.0
+4.0           0.0      3  0.0
+5.0           0.0      1  NaN",,
+2019-6-25-3,2019-6-25-3,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      2  0.0
+5.0           0.0      2  0.0","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN
+3.0           0.0      1  NaN
+4.0           0.0      2  0.0
+5.0           0.0      2  0.0",,
+2019-6-25-4,2019-6-25-4,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000004      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000004      1  NaN",,
+2019-6-25-5,2019-6-25-5,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000065      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000065      1  NaN",,
+2019-6-25-9,2019-6-25-9,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000008      2  0.000012","                 Mean  Count       STD
+smell value                           
+1.0          0.000008      2  0.000012",,
+2019-6-25-10,2019-6-25-10,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.001868      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.001868      1  NaN",,
+2019-6-25-11,2019-6-25-11,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-25-14,2019-6-25-14,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.000005      1  NaN
+3.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000005      1  NaN
+3.0          0.000000      1  NaN",-1.0,-1.0
+2019-6-25-19,2019-6-25-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000197      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000197      1  NaN",,
+2019-6-25-21,2019-6-25-21,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000001      2  0.000002","                 Mean  Count       STD
+smell value                           
+3.0          0.000001      2  0.000002",,
+2019-6-25-23,2019-6-25-23,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000212      1       NaN
+3.0          0.000518      2  0.000155","                 Mean  Count       STD
+smell value                           
+1.0          0.000212      1       NaN
+3.0          0.000518      2  0.000155",0.8493799507247678,0.8493799507247678
+2019-6-26-0,2019-6-26-0,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.013182      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.013182      1  NaN",,
+2019-6-26-3,2019-6-26-3,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.020279      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.020279      1  NaN",,
+2019-6-26-5,2019-6-26-5,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000142      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000142      1  NaN",,
+2019-6-26-6,2019-6-26-6,100.0,100.0,"                Mean  Count  STD
+smell value                     
+5.0          0.00281      1  NaN","                Mean  Count  STD
+smell value                     
+5.0          0.00281      1  NaN",,
+2019-6-26-9,2019-6-26-9,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.010202      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.010202      1  NaN",,
+2019-6-26-10,2019-6-26-10,100.0,100.0,"                 Mean  Count     STD
+smell value                         
+3.0          0.000022      1     NaN
+4.0          0.006043      2  0.0081","                 Mean  Count     STD
+smell value                         
+3.0          0.000022      1     NaN
+4.0          0.006043      2  0.0081",0.5188486393278173,0.5188486393278173
+2019-6-26-11,2019-6-26-11,80.0,80.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000028      2  0.000039
+4.0          0.001875      3  0.002243","                 Mean  Count       STD
+smell value                           
+3.0          0.000028      2  0.000039
+4.0          0.001875      3  0.002243",0.5376447188353377,0.5376447188353377
+2019-6-26-12,2019-6-26-12,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.001593      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.001593      1  NaN",,
+2019-6-26-13,2019-6-26-13,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000000      1       NaN
+3.0          0.000148      2  0.000173
+4.0          0.000000      1       NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.000000      1       NaN
+3.0          0.000148      2  0.000173
+4.0          0.000000      1       NaN",0.14910756279804155,0.14910756279804155
+2019-6-26-16,2019-6-26-16,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN
+5.0           0.0      1  NaN",,
+2019-6-26-18,2019-6-26-18,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN",,
+2019-6-26-19,2019-6-26-19,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000459      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000459      1  NaN",,
+2019-6-26-23,2019-6-26-23,33.33333333333333,33.33333333333333,"                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+3.0          0.000000      1  NaN
+4.0          0.001316      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+3.0          0.000000      1  NaN
+4.0          0.001316      1  NaN",0.7559289460184545,0.7559289460184545
+2019-6-27-0,2019-6-27-0,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000540      1  NaN
+5.0          0.000081      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000540      1  NaN
+5.0          0.000081      1  NaN",-1.0,-1.0
+2019-6-27-4,2019-6-27-4,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.025208      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.025208      1  NaN",,
+2019-6-27-6,2019-6-27-6,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.022179      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.022179      1  NaN",,
+2019-6-27-7,2019-6-27-7,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000041      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000041      1  NaN",,
+2019-6-27-8,2019-6-27-8,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.016653      1  NaN
+5.0          0.004963      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.016653      1  NaN
+5.0          0.004963      1  NaN",-1.0000000000000002,-1.0000000000000002
+2019-6-27-9,2019-6-27-9,83.33333333333334,83.33333333333334,"                 Mean  Count       STD
+smell value                           
+3.0          0.009303      1       NaN
+4.0          0.001330      1       NaN
+5.0          0.008601      4  0.014512","                 Mean  Count       STD
+smell value                           
+3.0          0.009303      1       NaN
+4.0          0.001330      1       NaN
+5.0          0.008601      4  0.014512",0.053016343995688296,0.053016343995688296
+2019-6-27-10,2019-6-27-10,95.65217391304348,95.65217391304348,"                 Mean  Count       STD
+smell value                           
+3.00         0.016677      3  0.028438
+4.00         0.014016      8  0.017203
+4.25         0.013078      1       NaN
+4.50         0.004100      3  0.002705
+5.00         0.038096      8  0.068134","                 Mean  Count       STD
+smell value                           
+3.0          0.016677      3  0.028438
+4.0          0.015648      7  0.017900
+5.0          0.038096      8  0.068134
+9.0          0.004100      3  0.002705
+12.0         0.002589      1       NaN
+17.0         0.013078      1       NaN",0.1910818005627639,-0.11831755580040162
+2019-6-27-11,2019-6-27-11,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.023301      6  0.016907
+4.0          0.014498     10  0.010572
+4.5          0.030490      1       NaN
+5.0          0.021626      6  0.011319","                 Mean  Count       STD
+smell value                           
+3.0          0.023301      6  0.016907
+4.0          0.013562      9  0.010764
+5.0          0.021626      6  0.011319
+8.0          0.022925      1       NaN
+9.0          0.030490      1       NaN",-0.021455642208072865,0.14286880060445098
+2019-6-27-12,2019-6-27-12,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.019409      1       NaN
+4.0          0.007016      7  0.005073","                 Mean  Count       STD
+smell value                           
+3.0          0.019409      1       NaN
+4.0          0.007016      7  0.005073",-0.6821626838555708,-0.6821626838555708
+2019-6-27-13,2019-6-27-13,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.008786      1  NaN
+5.0          0.000119      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.008786      1  NaN
+5.0          0.000119      1  NaN",-1.0,-1.0
+2019-6-27-14,2019-6-27-14,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.002992      1       NaN
+4.0          0.001743      2  0.002022
+5.0          0.008336      2  0.011220","                 Mean  Count       STD
+smell value                           
+3.0          0.002992      1       NaN
+4.0          0.001743      2  0.002022
+5.0          0.008336      2  0.011220",0.4067321590572691,0.4067321590572691
+2019-6-27-15,2019-6-27-15,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000110      1       NaN
+3.0          0.000220      2  0.000233
+4.0          0.000478      1       NaN
+5.0          0.000702      3  0.000334","                 Mean  Count       STD
+smell value                           
+1.0          0.000110      1       NaN
+3.0          0.000220      2  0.000233
+4.0          0.000478      1       NaN
+5.0          0.000702      3  0.000334",0.7330231926457244,0.7330231926457244
+2019-6-27-19,2019-6-27-19,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-27-21,2019-6-27-21,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000226      1       NaN
+4.0          0.000487      2  0.000279","                 Mean  Count       STD
+smell value                           
+3.0          0.000226      1       NaN
+4.0          0.000487      2  0.000279",0.6064226690500599,0.6064226690500599
+2019-6-27-22,2019-6-27-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000273      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000273      1  NaN",,
+2019-6-27-23,2019-6-27-23,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000569      1       NaN
+4.0          0.001438      5  0.001591
+5.0          0.001936      2  0.000438","                 Mean  Count       STD
+smell value                           
+3.0          0.000569      1       NaN
+4.0          0.001438      5  0.001591
+5.0          0.001936      2  0.000438",0.32065997161349513,0.32065997161349513
+2019-6-28-0,2019-6-28-0,33.33333333333333,33.33333333333333,"                 Mean  Count       STD
+smell value                           
+3.0          0.000000      1       NaN
+4.0          0.038635      2  0.054637","                 Mean  Count       STD
+smell value                           
+3.0          0.000000      1       NaN
+4.0          0.038635      2  0.054637",0.5,0.5
+2019-6-28-1,2019-6-28-1,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.059119      1       NaN
+5.0          0.000258      2  0.000023","                 Mean  Count       STD
+smell value                           
+3.0          0.059119      1       NaN
+5.0          0.000258      2  0.000023",-0.9999998817655602,-0.9999998817655602
+2019-6-28-3,2019-6-28-3,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000674      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000674      1  NaN",,
+2019-6-28-4,2019-6-28-4,100.0,100.0,"                Mean  Count       STD
+smell value                          
+5.0          0.04975      2  0.026929","                Mean  Count       STD
+smell value                          
+5.0          0.04975      2  0.026929",,
+2019-6-28-7,2019-6-28-7,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.017201      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.017201      1  NaN",,
+2019-6-28-8,2019-6-28-8,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-28-9,2019-6-28-9,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+5.0          0.031674      3  0.047868","                 Mean  Count       STD
+smell value                           
+5.0          0.031674      3  0.047868",,
+2019-6-28-10,2019-6-28-10,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.008328      2  0.003355
+4.0          0.124327      1       NaN
+5.0          0.012769      2  0.007349","                 Mean  Count       STD
+smell value                           
+3.0          0.008328      2  0.003355
+4.0          0.124327      1       NaN
+5.0          0.012769      2  0.007349",0.043461021293589905,0.043461021293589905
+2019-6-28-11,2019-6-28-11,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.007452      2  0.006614
+4.0          0.023948      6  0.037473
+5.0          0.019329      3  0.012506","                 Mean  Count       STD
+smell value                           
+3.0          0.007452      2  0.006614
+4.0          0.023948      6  0.037473
+5.0          0.019329      3  0.012506",0.11966299161376018,0.11966299161376018
+2019-6-28-12,2019-6-28-12,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.010942      4  0.004504
+4.0          0.014506      6  0.011098
+5.0          0.000375      1       NaN","                 Mean  Count       STD
+smell value                           
+3.0          0.010942      4  0.004504
+4.0          0.014506      6  0.011098
+5.0          0.000375      1       NaN",-0.12743506193945822,-0.12743506193945822
+2019-6-28-13,2019-6-28-13,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.004406      6  0.003462
+4.5          0.003188      1       NaN
+5.0          0.002499      3  0.001581","                 Mean  Count       STD
+smell value                           
+4.0          0.004406      6  0.003462
+5.0          0.002499      3  0.001581
+9.0          0.003188      1       NaN",-0.3218844309418127,-0.15820860651075722
+2019-6-28-14,2019-6-28-14,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+3.0          0.000548      2  0.000640
+4.0          0.002152      4  0.002862","                 Mean  Count       STD
+smell value                           
+3.0          0.000548      2  0.000640
+4.0          0.002152      4  0.002862",0.3474279784954057,0.3474279784954057
+2019-6-28-16,2019-6-28-16,60.0,60.0,"                 Mean  Count       STD
+smell value                           
+1.0          0.000000      1       NaN
+3.0          0.009991      1       NaN
+4.0          0.000004      2  0.000005
+5.0          0.004818      1       NaN","                 Mean  Count       STD
+smell value                           
+1.0          0.000000      1       NaN
+3.0          0.009991      1       NaN
+4.0          0.000004      2  0.000005
+5.0          0.004818      1       NaN",0.1377465147306685,0.1377465147306685
+2019-6-28-17,2019-6-28-17,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000007      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000007      1  NaN",,
+2019-6-28-21,2019-6-28-21,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+4.0           0.0      1  NaN",,
+2019-6-28-22,2019-6-28-22,0.0,0.0,"             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+5.0           0.0      1  NaN",,
+2019-6-29-0,2019-6-29-0,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000118      1  NaN
+5.0          0.003860      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000118      1  NaN
+5.0          0.003860      1  NaN",1.0,1.0
+2019-6-29-1,2019-6-29-1,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000002      2  0.000003","                 Mean  Count       STD
+smell value                           
+4.0          0.000002      2  0.000003",,
+2019-6-29-2,2019-6-29-2,100.0,100.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.017506      3  0.030294
+5.0          0.001361      1       NaN","                 Mean  Count       STD
+smell value                           
+4.0          0.017506      3  0.030294
+5.0          0.001361      1       NaN",-0.310262160824415,-0.310262160824415
+2019-6-29-3,2019-6-29-3,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+5.0          0.002141      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+5.0          0.002141      1  NaN",1.0,1.0
+2019-6-29-4,2019-6-29-4,0.0,0.0,"             Mean  Count  STD
+smell value                  
+4.0           0.0      2  0.0
+5.0           0.0      3  0.0","             Mean  Count  STD
+smell value                  
+4.0           0.0      2  0.0
+5.0           0.0      3  0.0",,
+2019-6-29-5,2019-6-29-5,37.5,37.5,"                 Mean  Count       STD
+smell value                           
+4.0          0.000141      4  0.000231
+4.5          0.000000      1       NaN
+5.0          0.000049      3  0.000085","                 Mean  Count       STD
+smell value                           
+4.0          0.000141      4  0.000231
+5.0          0.000074      2  0.000104
+9.0          0.000000      1       NaN
+10.0         0.000000      1       NaN",-0.28095841546617,-0.3505920473880814
+2019-6-29-6,2019-6-29-6,50.0,50.0,"                 Mean  Count       STD
+smell value                           
+5.0          0.049205      2  0.069586","                 Mean  Count       STD
+smell value                           
+5.0          0.049205      2  0.069586",,
+2019-6-29-7,2019-6-29-7,50.0,50.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+4.5          0.002048      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000000      1  NaN
+9.0          0.002048      1  NaN",1.0,1.0
+2019-6-29-9,2019-6-29-9,66.66666666666666,66.66666666666666,"                Mean  Count       STD
+smell value                          
+5.0          0.01171      3  0.020106","                Mean  Count       STD
+smell value                          
+5.0          0.01171      3  0.020106",,
+2019-6-29-10,2019-6-29-10,80.0,80.0,"                 Mean  Count      STD
+smell value                          
+3.0          0.025988      1      NaN
+4.0          0.010930      4  0.00911","                 Mean  Count      STD
+smell value                          
+3.0          0.025988      1      NaN
+4.0          0.010930      4  0.00911",-0.6492004395982427,-0.6492004395982427
+2019-6-29-11,2019-6-29-11,60.0,60.0,"                 Mean  Count       STD
+smell value                           
+4.0          0.000984      4  0.001167
+5.0          0.000473      1       NaN","                 Mean  Count       STD
+smell value                           
+4.0          0.000984      4  0.001167
+5.0          0.000473      1       NaN",-0.22053255879678188,-0.22053255879678188
+2019-6-29-12,2019-6-29-12,33.33333333333333,33.33333333333333,"                 Mean  Count  STD
+smell value                      
+1.0          0.000009      1  NaN
+3.0          0.000000      1  NaN
+4.0          0.000000      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000009      1  NaN
+3.0          0.000000      1  NaN
+4.0          0.000000      1  NaN",-0.944911182523068,-0.944911182523068
+2019-6-29-13,2019-6-29-13,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-29-14,2019-6-29-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.005816      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.005816      1  NaN",,
+2019-6-29-15,2019-6-29-15,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.000002      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.000002      1  NaN",,
+2019-6-29-16,2019-6-29-16,100.0,100.0,"                     Mean  Count  STD
+smell value                          
+5.0          6.901000e-07      1  NaN","                     Mean  Count  STD
+smell value                          
+5.0          6.901000e-07      1  NaN",,
+2019-6-29-17,2019-6-29-17,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000005      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000005      1  NaN",,
+2019-6-29-22,2019-6-29-22,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+5.0          0.000656      1  NaN","                 Mean  Count  STD
+smell value                      
+5.0          0.000656      1  NaN",,
+2019-6-29-23,2019-6-29-23,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000449      1  NaN
+4.0          0.001330      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000449      1  NaN
+4.0          0.001330      1  NaN",1.0,1.0
+2019-6-30-0,2019-6-30-0,100.0,100.0,"                Mean  Count  STD
+smell value                     
+1.0          0.00012      1  NaN","                Mean  Count  STD
+smell value                     
+1.0          0.00012      1  NaN",,
+2019-6-30-1,2019-6-30-1,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-30-3,2019-6-30-3,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.059392      1  NaN
+4.0          0.008023      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.059392      1  NaN
+4.0          0.008023      1  NaN",-1.0,-1.0
+2019-6-30-5,2019-6-30-5,0.0,0.0,"             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+1.0           0.0      1  NaN",,
+2019-6-30-9,2019-6-30-9,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+1.0          0.044318      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.044318      1  NaN",,
+2019-6-30-11,2019-6-30-11,66.66666666666666,66.66666666666666,"                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+4.0          0.000064      1  NaN
+5.0          0.001040      1  NaN","                 Mean  Count  STD
+smell value                      
+1.0          0.000000      1  NaN
+4.0          0.000064      1  NaN
+5.0          0.001040      1  NaN",0.7321282457343089,0.7321282457343089
+2019-6-30-12,2019-6-30-12,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+4.0          0.001318      1  NaN","                 Mean  Count  STD
+smell value                      
+4.0          0.001318      1  NaN",,
+2019-6-30-14,2019-6-30-14,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+2.0          0.000038      1  NaN","                 Mean  Count  STD
+smell value                      
+2.0          0.000038      1  NaN",,
+2019-6-30-15,2019-6-30-15,100.0,100.0,"                 Mean  Count  STD
+smell value                      
+3.0          0.000061      1  NaN","                 Mean  Count  STD
+smell value                      
+3.0          0.000061      1  NaN",,
+2019-6-30-17,2019-6-30-17,100.0,100.0,"                Mean  Count  STD
+smell value                     
+1.0          0.00001      1  NaN","                Mean  Count  STD
+smell value                     
+1.0          0.00001      1  NaN",,
+2019-6-30-19,2019-6-30-19,0.0,0.0,"             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+3.0           0.0      1  NaN",,
+2019-6-30-20,2019-6-30-20,25.0,25.0,"                 Mean  Count      STD
+smell value                          
+1.0          0.000127      2  0.00018
+3.0          0.000000      1      NaN
+5.0          0.000000      1      NaN","                 Mean  Count      STD
+smell value                          
+1.0          0.000127      2  0.00018
+3.0          0.000000      1      NaN
+5.0          0.000000      1      NaN",-0.5222329678670935,-0.5222329678670935
+2019-6-30-23,2019-6-30-23,0.0,0.0,"             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN","             Mean  Count  STD
+smell value                  
+2.0           0.0      1  NaN",,
