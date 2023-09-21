@@ -164,7 +164,6 @@ class HRRR_extraction():
                         var_name=var_name,
                         model_type="anl"
                         )
-
         area = self.chunk_index.where(self.check_boundaries, drop=True)
         chunk_ids = self.get_unique(area.chunk_id)
         data = self.get_chunk(zarr_id,chunk_ids[0])
@@ -178,7 +177,6 @@ class HRRR_extraction():
 
     def process_var(self, var_name, var_level):
         print(var_name, var_level)
-
         return self.steps_per_var(var_name, var_level)
 
 
@@ -197,12 +195,13 @@ class HRRR_extraction():
             dataset = all[i]
             data_array = dataset[var]
             combined_data[var] = data_array
+            combined_data[var] = combined_data[var].astype('float32')
 
             if i == 0:
                 lat = dataset.latitude
                 lon = dataset.longitude
-                combined_data['latitude'] = lat
-                combined_data['longitude'] = lon
+                combined_data['latitude'] = lat.astype('float32')
+                combined_data['longitude'] = lon.astype('float32')
         combined_dataset = xr.Dataset(combined_data)
         print("Data sets combined into a dataset, now saving to netcdf")
 
@@ -211,8 +210,6 @@ class HRRR_extraction():
 
     def make_input_data(self, filepattern):
         ds_disk = xr.open_mfdataset(filepattern, combine='nested', concat_dim='time')
-        _, index = np.unique(ds_disk['time'], return_index=True)
-        ds_disk = ds_disk.isel(time=index)
 
         print("files opened:", filepattern)
 
