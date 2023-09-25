@@ -1,9 +1,9 @@
-In order to run the HYSPLIT simualtions for Pittsburgh on a supercomputer, the following files can be used.
+In order to run the HYSPLIT simulations for Pittsburgh on a supercomputer, the following files can be used.
 These files have been copied from the CREATE SmellPittsburgh project and modified.
 
 To check before running:
 - Change all paths in `main.py` and `cached_hysplit_run_lib.py`
-- Change the path in which hysplit software is found in `automate_plume_viz.py`
+- Change the path in which HYSPLIT software is found in `automate_plume_viz.py`
 - Check all the settings defined in `main.py` and adjust as required.
 
 HYSPLIT configuration settings can be changed in `cached_hysplit_run_lib.py`, from line 492 onwards.
