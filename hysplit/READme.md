@@ -3,7 +3,7 @@
 Please read the READme within the *DCGAN* folder for more information. 
 
 Files:
--`emission_scheme.py` - This code is used to preprocess and explore the sensor data. Then, plots the emission scheme for each station. Finally, missing data is imputed and files are created that can be used for the informed input vector for the DCGAN.
+- `emission_scheme.py` - This code is used to preprocess and explore the sensor data. Then, plots the emission scheme for each station. Finally, missing data is imputed and files are created that can be used for the informed input vector for the DCGAN.
 - `get_data.py` - This code downloads monitoring station data from the online server. 
 
 Folders:
