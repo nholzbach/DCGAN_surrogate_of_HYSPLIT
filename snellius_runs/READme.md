@@ -1,0 +1,5 @@
+# Code run on supercomputer Snellius
+
+- *hysplit_data* contains all scripts used to run the HYSPLIT simulations. Please see the folder for more information about how to run these files.
+- *surrogate_training_data* contians two scripts: `gridding.py` generated the training data needed for the DCGAN. This consists of an informed input vecor and the HYSPLIT results image. This is done for at an hourly resolution. `grid.sh` is the bash script used to run this on Snellius, and can be edited to control which months are generated.
+- *weather* contains the script (`weather_extract.py`) used to extract weather data for the informed input vector. `run.sh` is the bash scripts that runs the file, and the dates of interest can be changed in here. Be aware that there are many dates that have missing data. Instances of missing data are currently just filled with 0, and it is noted when this happens. The DCGAN can only handle full input vectors, so at the moment, days with missing data can not be used to generate data.
